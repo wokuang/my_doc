@@ -1,5 +1,8 @@
 ## 用這份來紀錄 smart contract 相關文件
 
+## 官方資料
+  * [Solidity](https://solidity.readthedocs.io/) is a contract-oriented, high-level language for implementing smart contracts ** 這份必讀
+
 ## 需要閱讀的資料
   * [Dapps for Beginners](https://dappsforbeginners.wordpress.com/)
 
@@ -8,6 +11,10 @@
 
 ## 可供搜尋字串
   * [truffle教學](https://www.google.com.tw/search?q=truffle%E6%95%99%E5%AD%B8)
+
+## 可以試的工具
+  * [solgraph](https://github.com/raineorshine/solgraph)
+    * Visualize Solidity control flow and highlight potential security vulnerabilities.
 
 ## 一些有趣的課程網站
   * [Loom Network](https://loomx.io/)
