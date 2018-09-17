@@ -28,6 +28,7 @@
   * [OpenZeppelin 官網](https://openzeppelin.org/)
 
 ## Reference
+  * [Learn Solidity — The Ethereum smart contract programming language](https://medium.com/@robbertvermeulen/learn-solidity-the-ethereum-smart-contract-programming-language-7f106fc26d6) ** 有關 ethereum 的詳細資料
   * [ConsenSys/smart-contract-best-practices](https://github.com/ConsenSys/smart-contract-best-practices)
   * [Introduction to development on Ethereum](https://dappsforbeginners.wordpress.com/tutorials/introduction-to-development-on-ethereum/) ** 可以來看看
   * [以太猫(CryptoKitties)的智能合约代码分析](https://zhuanlan.zhihu.com/p/34194613) ** 要來看看
