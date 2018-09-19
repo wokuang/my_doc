@@ -32,11 +32,31 @@
   * [local_ethereum_network](https://github.com/wokuang/local_ethereum_network) 架設 local 的 chain
   * [Ethereum Dapp Tutorial — Push Button](https://medium.com/taipei-ethereum-meetup/ethereum-dapp-tutorial-push-button-cae3810086a4) - 使用 Truffle 從頭到尾開發出一個 Dapp
 
+## private blockchain
+  * [Public and Private Blockchains: Enemies or Allies? Why the Enterprise Ethereum Alliance will prove the latter](https://medium.com/@rtylersmith/public-and-private-blockchains-enemies-or-allies-45f050c38fc0)
+  * [On Public and Private Blockchains](https://blog.ethereum.org/2015/08/07/on-public-and-private-blockchains/)
+  * [Why Do I Need a Public and Private Key on the Blockchain?](https://blog.wetrust.io/why-do-i-need-a-public-and-private-key-on-the-blockchain-c2ea74a69e76)
+
 ## 有關 ethereum block
   * [Ethereum block architecture](https://ethereum.stackexchange.com/questions/268/ethereum-block-architecture)
 
 ## 重要參考資料
   * [Ethereum yellowpaper](https://ethereum.github.io/yellowpaper/paper.pdf)
+
+## 線上課程
+  * [consensys academy](https://consensys.net/academy/)
+  * [Blockchain: Foundations and Use Cases](https://www.coursera.org/learn/blockchain-foundations-and-use-cases) - Coursera
+  * [Bitcoin and Cryptocurrency Technologies](https://www.coursera.org/learn/cryptocurrency) 以比特幣為主 - Coursera
+
+## Ethereum 組織的組成
+  * [Ethereum Foundation](https://www.ethereum.org/foundation)
+  * [Enterprise Ethereum Alliance](https://entethalliance.org/)
+
+## 其他資料
+  * [An Introduction to Polkadot and Parachains](https://keepingstock.net/a-dummies-guide-to-polkadot-and-parachains-93708bd90775)
+  * [Avoiding the pointless blockchain project](https://www.multichain.com/blog/2015/11/avoiding-pointless-blockchain-project/)
+  * [An Introduction to IPFS](https://medium.com/@ConsenSys/an-introduction-to-ipfs-9bba4860abd0)
+  * [Here's how IPFS works](https://ipfs.io/#how)
 
 ## Reference
   * [Everything You Need to Know About Gitcoin](https://medium.com/gitcoin/everything-you-need-to-know-about-gitcoin-fe2e3e292a21)
