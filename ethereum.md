@@ -58,7 +58,14 @@
   * [An Introduction to IPFS](https://medium.com/@ConsenSys/an-introduction-to-ipfs-9bba4860abd0)
   * [Here's how IPFS works](https://ipfs.io/#how)
 
+## 架構圖
+  * [cpp-ethereum architecture.html](http://ethdocs.org/en/latest/ethereum-clients/cpp-ethereum/architecture.html)
+
+## about decentralization
+  * [The Meaning of Decentralization](https://medium.com/@VitalikButerin/the-meaning-of-decentralization-a0c92b76a274) 三種 decentralization
+
 ## Reference
+  * [台灣區塊鏈 - 生態指南](https://findit.org.tw/upload/research/research_20180921001.pdf)
   * [Everything You Need to Know About Gitcoin](https://medium.com/gitcoin/everything-you-need-to-know-about-gitcoin-fe2e3e292a21)
   * [gitcoin.cc](https://gitcoin.co/)
   * [gitcoin](https://medium.com/gitcoin) - Gitcoin is an open source bounties platform on the Ethereum blockchain
