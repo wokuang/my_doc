@@ -20,6 +20,16 @@
 ## python library
   * [iotaledger/iota.lib.py](https://github.com/iotaledger/iota.lib.py) - PyOTA: The IOTA Python API Library https://iota.readme.io/
 
+## testnet & private net
+  * [The IOTA Testnet: Training Wheels for the Community](https://blog.iota.org/the-iota-testnet-training-wheels-for-the-community-fd65dbdddb3b)
+  * [Kiri: Private IOTA testnet in Kura](https://trustingiot.com/2018/04/02/kiri-private-iota-testnet-in-kura/)
+  * [schierlm/private-iota-testnet](https://github.com/schierlm/private-iota-testnet)
+  * [PoWbox](https://blog.iota.org/relaunching-the-powbox-d392236b6939) 
+
+## Resource
+  * [IOTA Ecosystem](https://ecosystem.iota.org/)
+  * [iota reddit](https://www.reddit.com/r/Iota)
+
 ## Reference
   * [IOTA introduction](https://docs.iota.org/introduction) 官方說明文件
   * [IOTA Index](http://www.iotaindex.com/) - We aim to list all useful IOTA websites. - ** 來看看
@@ -36,5 +46,6 @@
   * [深入理解 IOTA 交易發起方式](https://blog.louie.lu/2018/01/10/in-depth-explain-iota-transaction/)
   * [物聯網與『高效的』IOTA](https://tw.saowen.com/a/cf3b633ef009b914ee047ef4e9ac81bc153eb35191ffa0af2d3d19cf5526c2a8)
   * [The Secret to Security — Is Secrecy](https://blog.iota.org/the-secret-to-security-is-secrecy-d32b5b7f25ef) - 產生 & 保護 seed
+  * [IOTA IRI configuration documentation](https://blog.louie.lu/2017/11/15/iota-iri-configuration-documentation/)
   * [什麼是 IOTA？](https://wusyong.gitbooks.io/iota-guidebook/iota.html) ** 要讀
 
