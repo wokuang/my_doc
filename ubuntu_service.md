@@ -17,3 +17,4 @@ $ sudo journalctl -f -u my-webapp
 ## Reference
   * [Ubuntu service管理](https://chenhh.gitbooks.io/ubuntu-linux/content/service.html)
   * [Run your Java application as a Service on Ubuntu](https://medium.com/@sulmansarwar/run-your-java-application-as-a-service-on-ubuntu-544531bd6102)
+  * [如何使用Journalctl查看并操作Systemd日志](https://blog.csdn.net/zstack_org/article/details/56274966)
