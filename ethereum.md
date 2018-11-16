@@ -65,6 +65,7 @@
   * [The Meaning of Decentralization](https://medium.com/@VitalikButerin/the-meaning-of-decentralization-a0c92b76a274) 三種 decentralization
 
 ## Reference
+  * [Crypto Canon](https://a16z.com/2018/02/10/crypto-readings-resources/) 滿滿的跟 blockchain & crypto 相關的 resources **
   * [台灣區塊鏈 - 生態指南](https://findit.org.tw/upload/research/research_20180921001.pdf)
   * [Everything You Need to Know About Gitcoin](https://medium.com/gitcoin/everything-you-need-to-know-about-gitcoin-fe2e3e292a21)
   * [gitcoin.cc](https://gitcoin.co/)
