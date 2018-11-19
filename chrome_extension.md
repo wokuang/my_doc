@@ -6,6 +6,14 @@
 ## 操作 step
   * 進入 extension 管理介面 chrome://extensions
 
+## 可以拿到的資料 -  Chrome Browser
+  * [Develop Extensions](https://developer.chrome.com/extensions/devguide)
+    * Modify and observe the Chrome Browser => 看這節
+    * [Bookmarks](https://developer.chrome.com/extensions/bookmarks)
+    * [History](https://developer.chrome.com/extensions/history)
+    * [Top Sites](https://developer.chrome.com/extensions/topSites)
+  * [Sample Extensions](https://developer.chrome.com/extensions/samples#search:)
+
 ## 檔案結構 
 所有的extension擁有下列檔案：
 
@@ -18,4 +26,6 @@
 
 ## Reference Data
   * [Chrome Permissions](https://developer.chrome.com/extensions/declare_permissions)
+  * [manifest file information](https://developer.chrome.com/extensions/manifest)
+
 
