@@ -38,6 +38,10 @@ Setup: https://kubernetes.io/docs/getting-started-guides/minikube/
 ### 用 kubeadm 來跑 cluster
   * Link to kubeadm installation 
     * instructions: https://kubernetes.io/docs/setup/independent/install-kubeadm/
+  * Using [flannel](https://kubernetes.io/docs/setup/independent/create-cluster-kubeadm/#tabs-pod-install-4) for pod network
+
+### Run on Google Cloud Platform
+  * Kubernetes on Google Cloud: https://cloud.google.com/kubernetes-engine/docs/
 
 ## List of OS information
   * [OS Box](https://www.osboxes.org/)
