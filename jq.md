@@ -5,6 +5,10 @@
 ## 一些範例
 `bash
 $ aws lambda list-functions | jq '.Functions[].FunctionName'
+`
+
+result
+`bash
 "updateSaveInfo"
 "cy-post"
 "getCompList"
