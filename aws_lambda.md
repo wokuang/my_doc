@@ -25,6 +25,10 @@
 ## How to download file from private S3
   - [Using pre-signed URLs to upload a file to a private S3 bucket](https://sanderknape.com/2017/08/using-pre-signed-urls-upload-file-private-s3-bucket/)
 
+## Limit
+  - [AWS Lambda Limits](https://docs.aws.amazon.com/en_us/lambda/latest/dg/limits.html)
+    - Invocation payload (request and response): 6 MB (synchronous) / 256 KB (asynchronous)
+
 ## using AWS cli example
   - [Your First Python Lambda Function on AWS Using the AWS CLI Tools](https://sysadmins.co.za/your-first-python-lambda-function-on-aws-using-the-aws-cli-tools/)
 
