@@ -1,7 +1,8 @@
 # List the python information & docuemnts
 
 ## Beyond the basic
-  - special method
+  - special methods
+    - dunder => double underscore, dunder len => ```__len__```
     - ```__<moehto_name>__```
 
 ## Python using for data analysis
