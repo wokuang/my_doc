@@ -1,5 +1,9 @@
 # List the python information & docuemnts
 
+## Beyond the basic
+  - special method
+    - ```__<moehto_name>__```
+
 ## Python using for data analysis
   - SciPy
   - [Pandas](https://pandas.pydata.org/)
