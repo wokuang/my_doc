@@ -4,6 +4,11 @@
   - special methods
     - dunder => double underscore, dunder len => ```__len__```
     - ```__<moehto_name>__```
+  - module => single python code => import xxx => general files
+  - package: a module which can contain other modules => general directories
+    - it will have ```__path__``` method
+  - sys.path => list of directories Python searchs for modules
+  - PYTHONPATH: Environment variable listing paths added to sys.path
 
 ## Python using for data analysis
   - SciPy
