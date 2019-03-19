@@ -1,5 +1,8 @@
 # List the AWS api gateway reference
 
+## authorization
+  - [Custom Authorizers](https://rickhw.github.io/2018/02/04/AWS/Study-Notes-API-Gateway-Custom-Authorizer-using-Lambda/)
+
 ## api endpoint
 API Gateway 內已部署至特定區域之 API 的主機名稱。主機名稱的格式為 {api-id}.execute-api.{region}.amazonaws.com
 
