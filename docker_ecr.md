@@ -45,6 +45,11 @@
   $ docker push 025573876724.dkr.ecr.us-west-2.amazonaws.com/cowsay:0.2
 ```
 
+## 移除 aws ecr repository
+```
+  $ aws ecr delete-repository --repository-name bruce --force
+```
+
 ## document
   * [Amazon Elastic Container Registry 入門](https://aws.amazon.com/tw/ecr/getting-started/)
     * [Docker Basics for Amazon ECR](https://docs.aws.amazon.com/en_us/AmazonECR/latest/userguide/docker-basics.html) 由這篇開始 

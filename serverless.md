@@ -18,6 +18,22 @@
   - [3 Steps to Access AWS Resources with Google Sign-In](https://blog.codecentric.de/en/2018/04/accessing-aws-resources-with-google-sign-in/#step-1)
   - [How to create an AWS Lambda Authorizer for an Amazon API Gateway](https://blog.codecentric.de/en/2018/04/aws-lambda-authorizer/) ** 這篇很重要
 
+## 一些實作方式
+  * [淺析 serverless 架構與實作](https://denny.qollie.com/2016/05/22/serverless-simple-crud/) 
+
+## serverless diagram
+  * [Serverless Architecture Language](https://hackernoon.com/documenting-serverless-architectures-69bf63fc67b0) ** 要畫圖，這份很值得參考 
+  * [Serverless Allergy Checker with Amazon Rekognition, Lex, Polly, DynamoDB, S3 and Lambda](https://hackernoon.com/serverless-allergy-checker-with-amazon-rekognition-lex-polly-dynamodb-s3-and-lambda-35fd215b51b0) ** 這份也可以看看 
+  * [6 things I’ve learned in my first 6 months using serverless](https://read.acloud.guru/six-months-of-serverless-lessons-learned-f6da86a73526)
+  * [How Does a Serverless App Work?](https://dzone.com/articles/how-does-a-serverless-app-work)
+
+## 有關 serverless framework 的介紹
+  * [AWS Lambda + Serverless Framework + Python — A Step By Step Tutorial — Part 1 “Hello World”](https://medium.com/devopslinks/aws-lambda-serverless-framework-python-part-1-a-step-by-step-hello-world-4182202aba4a)
+
+## 想想要如何將 s3 的 domain name, 改為公司的 domain
+  * [Virtual Hosting of Buckets](https://docs.aws.amazon.com/en_us/AmazonS3/latest/dev/VirtualHosting.html)
+  * [Custom domain for s3 bucket?](https://stackoverflow.com/questions/25667252/custom-domain-for-s3-bucket)
+
 ## API gateway document
   - [Amazon API Gateway 資源](https://aws.amazon.com/tw/api-gateway/resources/)
   - [Map Response Payload](https://docs.aws.amazon.com/en_us/apigateway/latest/developerguide/api-gateway-create-api-step-by-step.html#getting-started-models) 將回傳的結果，使用map 來加以轉換 parameter name

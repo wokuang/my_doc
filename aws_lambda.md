@@ -32,6 +32,10 @@
 ## using AWS cli example
   - [Your First Python Lambda Function on AWS Using the AWS CLI Tools](https://sysadmins.co.za/your-first-python-lambda-function-on-aws-using-the-aws-cli-tools/)
 
+## Reference
+  * [Best Practices for Working with AWS Lambda Functions](https://docs.aws.amazon.com/en_us/lambda/latest/dg/best-practices.html)
+  * [Tutorial: Configuring a Lambda Function to Access Amazon ElastiCache in an Amazon VPC](https://docs.aws.amazon.com/en_us/lambda/latest/dg/vpc-ec.html)
+
 ## Course
   - AWS Developers: Serverless Architecture and Monitoring - ongoin 2019-02-27
   - Deploying Serverless Applications in AWS Using the Serverless Application Model
