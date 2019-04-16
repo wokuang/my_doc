@@ -9,6 +9,52 @@
   * [AWS | Scheduled Cron Example](https://serverless.com/examples/aws-python-scheduled-cron/)
     * $ serverless logs --function cron --tail # 看 log 用的 command
     * $ sls logs -f cron -t
+  * [AWS | REST API With DynamoDB](https://serverless.com/examples/aws-python-rest-api-with-dynamodb/)
+    * $ serverless deploy # 執行這 command 就好
+    * 可以參考這份，來設定到不同的 python 程式
+  * [How to Handle your Python packaging in Lambda with Serverless plugins](https://serverless.com/blog/serverless-python-packaging/) 有額外 python package 的方式 
+  * [AWS | REST API With FaunaDB](https://serverless.com/examples/aws-python-rest-api-with-faunadb/)
+    * 透過這份來試試 FaunaDB
+    * 要去 [FaunaDB](https://fauna.com/serverless-cloud-sign-up) 取得 FAUNADB_SECRET
+    * 建立 virtual env
+  * [AWS | PynamoDB S3 Sigurl](https://serverless.com/examples/aws-python-pynamodb-s3-sigurl/)
+    * 這份可以參考來進行，目前要做的 update service (AU server)
+    * 有遇到一個 error - An error occurred: S3BucketSigs3uploader - sig-s3-uploader already exists.
+      * 由 error 來看，應該是 s3 bucket 已經存在  
+      * 解法：將 app_acronym 的設定由 sig-s3-uploader 改為 sig-s3-uploader-test
+      * [aws-python-pynamodb-s3-sigurl: Cannot read property 'toString' of null ](https://github.com/serverless/examples/issues/364)
+  * [AWS | Auth0 Custom Authorizers API](https://serverless.com/examples/aws-python-auth0-custom-authorizers-api/)
+
+## 開啟 serverless debug 的方式
+```
+  $ SLS_DEBUG=*
+```
+
+## 建立 virtual env, 來上傳 python package
+  * 建立 virtual env 方式
+```
+  $ virtualenv venv
+  $ source ./venv/bin/activate
+```
+  * 安裝需要的 package
+    * $ npm install serverless-python-requirements
+  * 需要先安裝 docker 來包 package
+    * You need to have Docker installed to be able to set dockerizePip: true or dockerizePip: non-linux. 
+    * Alternatively, you can set dockerizePip: false, and it will not use Docker packaging. But, Docker packaging is essential if you need to build native packages that are part of your dependencies like Psycopg2, NumPy, Pandas, etc.
+  * 在 serverless.yml 中，加入 plugins 設定
+```
+ plugins:
+   - serverless-python-requirements
+
+ custom:
+  pythonRequirements:
+    dockerizePip: non-linux
+
+```
+
+
+## tutorial
+  * [The Right Way™ to do Serverless in Python](https://read.iopipe.com/the-right-way-to-do-serverless-in-python-e99535574454)
 
 ## 一些常用的 command
   * deploy service
@@ -62,4 +108,8 @@
   * [AWS Lambda Simplified With Serverless Framework](https://itnext.io/aws-lambda-simplified-with-serverless-framework-8fbc01418422)
 
 ## 一些進階的有趣主題
+  * [AWS re:Invent 2017: Become a Serverless Black Belt: Optimizing Your Serverless Appli (SRV401)](https://www.youtube.com/watch?v=oQFORsso2go&feature=youtu.be&t=8m5s)
+  * [Getting started with AWS Lambda Layers for Python](https://medium.com/@adhorn/getting-started-with-aws-lambda-layers-for-python-6e10b1f9a5d)
+  * [Auto Scale DynamoDB With Dynamic DynamoDB](https://aws.amazon.com/tw/blogs/aws/auto-scale-dynamodb-with-dynamic-dynamodb/) 有空來看看
+  * [Using Serverless Authentication Boilerplate with FaunaDB](https://serverless.com/blog/faunadb-serverless-authentication/)
   * [Aurora Serverless Data API: A First Look](https://www.jeremydaly.com/aurora-serverless-data-api-a-first-look/) 連 relational DB 也有 serverless 
