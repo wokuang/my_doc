@@ -25,6 +25,20 @@
       * [aws-python-pynamodb-s3-sigurl: Cannot read property 'toString' of null ](https://github.com/serverless/examples/issues/364)
   * [AWS | Auth0 Custom Authorizers API](https://serverless.com/examples/aws-python-auth0-custom-authorizers-api/)
 
+## 有關 authentication
+  * 預計實作的方向
+    * session 自己編
+    * auth 透過 api-gateway 的方式
+  * [Strategies for implementing user authentication in serverless applications](https://serverless.com/blog/strategies-implementing-user-authentication-serverless-applications/)
+    * Amazon provides a [python blueprint](https://github.com/awslabs/aws-apigateway-lambda-authorizer-blueprints/blob/master/blueprints/python/api-gateway-authorizer-python.py) for implementing authorizer functions
+  * [The Complete Guide to Custom Authorizers with AWS Lambda and API Gateway](https://www.alexdebrie.com/posts/lambda-custom-authorizers/) ** 進行的概念
+
+## Serverless Framework
+  * [Test-Driven Serverless Application Development](https://serverless.com/blog/tdd-serverless/)
+
+## 還要來看看的
+  * [Where to start: the most popular Framework plugins](https://serverless.com/blog/most-popular-framework-plugins/)
+
 ## 開啟 serverless debug 的方式
 ```
   $ SLS_DEBUG=*
@@ -54,7 +68,12 @@
 
 
 ## tutorial
-  * [The Right Way™ to do Serverless in Python](https://read.iopipe.com/the-right-way-to-do-serverless-in-python-e99535574454)
+  * [The Right Way™ to do Serverless in Python](https://read.iopipe.com/the-right-way-to-do-serverless-in-python-e99535574454) ** 這篇值得一讀，可以用如下的方式來回傳 json 格式
+```
+import json
+def handler(event, context):
+    return {"statusCode": 200, "body": json.dumps({"message": "I'm an HTTP response"})}
+```
 
 ## 一些常用的 command
   * deploy service
