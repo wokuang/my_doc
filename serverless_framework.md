@@ -4,6 +4,10 @@
   * gitHub [serverless/serverless](https://github.com/serverless/serverless)
   * [AWS Provider Documentation](https://serverless.com/framework/docs/providers/aws/) ** 這份滿重要的
   * [serverless examples](https://serverless.com/examples/)
+  * [forum](https://forum.serverless.com/)
+
+## 一些介紹
+  * [Full Stack Python Serverless](https://www.fullstackpython.com/serverless.html)
 
 ## 一些試過的 example
   * [AWS | Scheduled Cron Example](https://serverless.com/examples/aws-python-scheduled-cron/)
@@ -35,6 +39,20 @@
 
 ## Serverless Framework
   * [Test-Driven Serverless Application Development](https://serverless.com/blog/tdd-serverless/)
+
+## 以 api gateway 處理 lambda error handling 錯誤
+  * 目前是以 Lambda-Proxy 的方式來整合，在 lambda 中自行處理回傳的資料
+  * [Lambda-Proxy vs Lambda Integration in AWS API Gateway](https://medium.com/@lakshmanLD/lambda-proxy-vs-lambda-integration-in-aws-api-gateway-3a9397af0e6d) ** 這篇要先看
+  * [TUTORIAL: Build a Hello World API with Lambda Proxy Integration](https://docs.aws.amazon.com/en_us/apigateway/latest/developerguide/api-gateway-create-api-as-simple-proxy-for-lambda.html) AWS official 的範例
+  * [（八）API Gateway－－AWS經驗教學](http://akuma1.pixnet.net/blog/post/306807820-%EF%BC%88%E5%85%AB%EF%BC%89api-gateway%EF%BC%8D%EF%BC%8Daws%E7%B6%93%E9%A9%97%E6%95%99%E5%AD%B8) 有說明 lambda proxy 的整合 & lambda test template
+  * [Error handling with API Gateway and Go Lambda functions](https://hackernoon.com/error-handling-with-api-gateway-and-go-   lambda-functions-fe0e10808732) ** 這篇要看
+  * [搭配使用 AWS Lambda 與 Amazon API Gateway](https://docs.aws.amazon.com/zh_tw/lambda/latest/dg/with-on-demand-https.html)
+  * [在 API Gateway 中處理 Lambda 錯誤](https://docs.aws.amazon.com/zh_tw/apigateway/latest/developerguide/handle-errors-in-lambda-integration.html)
+  * [AWS Lambda Function Errors in Python](https://docs.aws.amazon.com/en_us/lambda/latest/dg/python-exceptions.html)
+
+## 設定 custom domain
+  * [How to set up a custom domain name for Lambda & API Gateway with Serverless](https://serverless.com/blog/serverless-api-gateway-domain/) 
+    * [amplify-education/serverless-domain-manager](https://github.com/amplify-education/serverless-domain-manager)
 
 ## 還要來看看的
   * [Where to start: the most popular Framework plugins](https://serverless.com/blog/most-popular-framework-plugins/)
@@ -111,13 +129,40 @@ def handler(event, context):
   * Cost estimations (tag functions with an environment tag: environment: Production)
   * Keeping track of legacy code (e.g. tag functions which use outdated runtimes: runtime: nodejs0.10)
 
-## 進階的使用方式
+## lambda layer 的相關資料
+  * [AWS Lambda 合作夥伴](https://aws.amazon.com/tw/lambda/partners/)
+  * [Lambda layers for python runtime](https://nordcloud.com/lambda-layers-for-python-runtime/)
+  * [How to Deploy AWS Layers With Lambda And Serverless.js](https://medium.com/harrythegreat/build-aws-layers-lambda-serverless-js-42cd6d17b155)
   * [New for AWS Lambda – Use Any Programming Language and Share Common Components](https://aws.amazon.com/tw/blogs/aws/new-for-aws-lambda-use-any-programming-language-and-share-common-components/)
     * 使用 lambda layers 來試試 
-  
+  * [How to publish and use AWS Lambda Layers with the Serverless Framework](https://serverless.com/blog/publish-aws-lambda-layers-serverless-framework/)
+  * [dschep/sqlite-lambda-layer](https://github.com/dschep/sqlite-lambda-layer)
+ 
+## serverless - plugin
+ * [serverless/plugins](https://github.com/serverless/plugins)
+
+## lambda connect to RDS (using serverless)
+  * Lambda 設定 VPC & subnet
+  * IAM role 要加 AWSLambdaVPCAccessExecutionRole policy
+  * 確認 security group 是否為 VPC 都可連
+  * [How to Access your RDS Database with Lambda Function and Serverless](https://medium.com/@antonio.cm.oliveira/how-to-access-your-rds-database-with-lambda-function-and-serverless-b7712dde9f80) ** 這篇很重要
+  * [Serverless & RDBS (Part 1) — Set up AWS RDS Aurora and Lambda with serverless](https://medium.com/mos-engineering/serverless-rdbs-part-1-set-up-aws-rds-aurora-and-lambda-with-serverless-4c2a5146faf4)
+  * [Tutorial: Configuring a Lambda Function to Access Amazon RDS in an Amazon VPC](https://docs.aws.amazon.com/en_us/lambda/latest/dg/vpc-rds.html)
+  * [Cannot connect to a AWS RDS mysql database from lambda serverless in python](https://forum.serverless.com/t/cannot-connect-to-a-aws-rds-mysql-database-from-lambda-serverless-in-python/3817)
+
+## lambda error and logger
+  * [A basic error logger for Python Lambdas](https://alexwlchan.net/2018/09/error-logging-in-lambdas/)
+  * [rholder/retrying](https://github.com/rholder/retrying) 進行 retry 的方式  
+  * [Handle Errors in Serverless Applications with AWS Step Functions and AWS Lambda](https://aws.amazon.com/tw/getting-started/tutorials/handle-serverless-application-errors-step-functions-lambda/)
+
+## 進階的使用方式 - lambda layer
+  * [How to beat the AWS Lambda deployment limits](https://hackernoon.com/exploring-the-aws-lambda-deployment-limits-9a8384b0bec3)
+
 ## Serverless OPS
   * [Serverless Ops 101 - Using CloudWatch Metrics & Alarms with Serverless Functions](https://serverless.com/blog/serverless-ops-metrics/)
   * [Serverless Ops 102 - CloudWatch Logs and Centralized Logging with AWS Lambda](https://serverless.com/blog/serverless-ops-logs/)
+  * [4 Tools For Building Production Serverless Architectures with Lambda](https://serverless.com/blog/4-tools-for-building-production-serverless-architectures/)
+    * 要找時間看看用 Sentry 來進行 error tracking
 
 ## Example
   *  [AWS | Simple HTTP Endpoint](https://serverless.com/examples/aws-python-simple-http-endpoint/)

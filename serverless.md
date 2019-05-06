@@ -18,6 +18,15 @@
   - [3 Steps to Access AWS Resources with Google Sign-In](https://blog.codecentric.de/en/2018/04/accessing-aws-resources-with-google-sign-in/#step-1)
   - [How to create an AWS Lambda Authorizer for an Amazon API Gateway](https://blog.codecentric.de/en/2018/04/aws-lambda-authorizer/) ** 這篇很重要
 
+## cold start
+  * [Everything you need to know about cold starts in AWS Lambda](https://hackernoon.com/cold-starts-in-aws-lambda-f9e3432adbf0)
+  * [Resolving Cold Start️ in AWS Lambda](https://medium.com/@lakshmanLD/resolving-cold-start%EF%B8%8F-in-aws-lambda-804512ca9b61)
+    * 以每 20 min 呼叫一次的方式，來保持 lambda warm
+  * [Serverless: Cold Start War](https://mikhail.io/2018/08/serverless-cold-start-war/) ** 很值得一讀
+
+## error handling
+  * [Handle Errors in Serverless Applications with AWS Step Functions and AWS Lambda](https://aws.amazon.com/tw/getting-started/tutorials/handle-serverless-application-errors-step-functions-lambda/)
+
 ## 一些實作方式
   * [淺析 serverless 架構與實作](https://denny.qollie.com/2016/05/22/serverless-simple-crud/) 
 
@@ -29,6 +38,10 @@
 
 ## 有關 serverless framework 的介紹
   * [AWS Lambda + Serverless Framework + Python — A Step By Step Tutorial — Part 1 “Hello World”](https://medium.com/devopslinks/aws-lambda-serverless-framework-python-part-1-a-step-by-step-hello-world-4182202aba4a)
+
+## serverless monitoring & deubg
+  * [8 Best Tools to Monitor and Debug Serverless Applications](https://geekflare.com/serverless-monitoring-troubleshooting-tools/)
+    * 來看看 Amazon CloudWatch 的方式  
 
 ## 想想要如何將 s3 的 domain name, 改為公司的 domain
   * [Virtual Hosting of Buckets](https://docs.aws.amazon.com/en_us/AmazonS3/latest/dev/VirtualHosting.html)
