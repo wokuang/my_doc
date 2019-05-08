@@ -3,6 +3,17 @@
   * [SQLAlchemy Documentation](https://docs.sqlalchemy.org)
   * [Object Relational Tutorial](https://docs.sqlalchemy.org/en/13/orm/tutorial.html)
 
+## create table 的方式
+  * call Base 的方式來建立
+```
+>>> Base.metadata.tables['component'].create(bind=engine)
+```
+  * call class 的方式來建立
+```
+>>> Component.__table__.create(bind=engine)
+```
+
+  * [How to create only one table with SQLAlchemy?](https://stackoverflow.com/questions/19175311/how-to-create-only-one-table-with-sqlalchemy)
 
 ## schema change
   * [Alembic’s documentation](https://alembic.sqlalchemy.org)
