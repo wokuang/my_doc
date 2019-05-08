@@ -21,3 +21,7 @@
 ## style
   - [Google Python Style Guide](https://github.com/google/styleguide/blob/gh-pages/pyguide.md)
 
+## python tutorial
+  * [【GitHub 上破萬顆星】Python 新手 100 天學習計劃，這次學不會算我輸！](https://buzzorange.com/techorange/2019/05/07/python-100-days/)
+  * [jackfrued/Python-100-Days](https://github.com/jackfrued/Python-100-Days) - Python - 100天从新手到大师
+

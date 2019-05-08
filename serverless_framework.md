@@ -155,6 +155,15 @@ def handler(event, context):
   * [rholder/retrying](https://github.com/rholder/retrying) 進行 retry 的方式  
   * [Handle Errors in Serverless Applications with AWS Step Functions and AWS Lambda](https://aws.amazon.com/tw/getting-started/tutorials/handle-serverless-application-errors-step-functions-lambda/)
 
+## 在 lambda 中，使用 s3 的相關資料
+  * 使用 boto3 跟 s3_client 連，並搭配 zipfile 解 zip 檔
+  * [Amazon S3 and Python](https://whiletrue.run/2016/09/20/amazon-s3-and-python/)
+  * [msharp/aws-lambda-unzipper.py](https://gist.github.com/msharp/eaa1c5b1b4e50f1372c19bbe5ef52f9e)
+  * [How do I extract a zip file in an Amazon S3 by using Lambda?](https://www.quora.com/How-do-I-extract-a-zip-file-in-an-Amazon-S3-by-using-Lambda)
+  * [How to get contents of a text file from AWS s3 using a lambda function?](https://stackoverflow.com/questions/30651502/how-to-get-contents-of-a-text-file-from-aws-s3-using-a-lambda-function)
+  * [How to read contents of zip file in Python](https://codeyarns.com/2013/10/03/how-to-read-contents-of-zip-file-in-python/) ** 讀 zip file 的方式
+  * [zipfile – Read and write ZIP archive files](https://pymotw.com/2/zipfile/)
+
 ## 進階的使用方式 - lambda layer
   * [How to beat the AWS Lambda deployment limits](https://hackernoon.com/exploring-the-aws-lambda-deployment-limits-9a8384b0bec3)
 
