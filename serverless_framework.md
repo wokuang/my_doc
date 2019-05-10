@@ -36,6 +36,7 @@
   * [Strategies for implementing user authentication in serverless applications](https://serverless.com/blog/strategies-implementing-user-authentication-serverless-applications/)
     * Amazon provides a [python blueprint](https://github.com/awslabs/aws-apigateway-lambda-authorizer-blueprints/blob/master/blueprints/python/api-gateway-authorizer-python.py) for implementing authorizer functions
   * [The Complete Guide to Custom Authorizers with AWS Lambda and API Gateway](https://www.alexdebrie.com/posts/lambda-custom-authorizers/) ** 進行的概念
+  * [API Gateway - Custom Authorizer using Lambda](https://rickhw.github.io/2018/02/04/AWS/Study-Notes-API-Gateway-Custom-Authorizer-using-Lambda/) ** 要看
 
 ## lambda 有設定 VPC 時，連 s3 的方式
   * 當透過 VPC 時，預設沒有開 internet facing，所以會取不到 s3 object

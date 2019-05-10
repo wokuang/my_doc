@@ -20,6 +20,8 @@
   * [sqlalchemy怎么修改表结构？](https://www.zhihu.com/question/27551008)
   * [利用alembic进行sqlalchemy ORM数据库模型版本管理](https://blog.csdn.net/deerlux/article/details/50181997)
   
+## library
+  * [SQLAlchemy Library](https://www.sqlalchemy.org/library.html#tutorials) ** 有時間來看看
 
 ## document
   * [SQLAlchemy Basics Tutorial](https://leportella.com/english/2019/01/10/sqlalchemy-basics-tutorial.html) ** 先看看這份

@@ -31,6 +31,9 @@
 timestamp is 1557238787
 ```
 
+## python api
+  * [Top Python APIs](https://www.programcreek.com/python/index/module/list) ** 找 python sample code 滿有趣的地方
+
 ## python tutorial
   * [【GitHub 上破萬顆星】Python 新手 100 天學習計劃，這次學不會算我輸！](https://buzzorange.com/techorange/2019/05/07/python-100-days/)
   * [jackfrued/Python-100-Days](https://github.com/jackfrued/Python-100-Days) - Python - 100天从新手到大师
