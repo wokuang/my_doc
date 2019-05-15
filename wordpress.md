@@ -5,6 +5,8 @@
 
 ## 在 AWS 上建立 wordpress server
   - [Tutorial: Hosting a WordPress Blog with Amazon Linux](https://docs.aws.amazon.com/en_us/AWSEC2/latest/UserGuide/hosting-wordpress.html)
+    * 使用 [bitnami](https://zh.wikipedia.org/wiki/Bitnami) 進行安裝
+    * path : /opt/bitnami/apps/wordpress
 
 ## wordpress 教學
   - [WordPress教學：42個詳細教學完整了解WordPress（新手必讀）](https://startablog.tips/wordpress-tutorial-step-by-step/)
@@ -31,6 +33,9 @@
   - [just themes 介紹](https://justfreethemes.com/generatepress/)
   - [GeneratePress Overview - by wbcrafter](https://www.wpcrafter.com/review/generatepress/)
   - [20+ Examples Of Websites Using GeneratePress In 2018](https://wplift.com/generatepress-examples-showcase)
+
+## 有關 Database
+  * [Database Description](https://codex.wordpress.org/Database_Description)
 
 ## Reference
   * [WordPress教學：32個課程（安裝＋主題外掛＋購物車）](https://daotw.com/wordpress%E6%95%99%E5%AD%B8/)

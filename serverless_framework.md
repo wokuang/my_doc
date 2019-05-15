@@ -140,6 +140,7 @@ def handler(event, context):
 ## lambda layer 的相關資料
   * [AWS Lambda 合作夥伴](https://aws.amazon.com/tw/lambda/partners/)
   * [Lambda layers for python runtime](https://nordcloud.com/lambda-layers-for-python-runtime/)
+  * [Getting started with AWS Lambda Layers for Python](https://medium.com/@adhorn/getting-started-with-aws-lambda-layers-for-python-6e10b1f9a5d) ** 簡易範例
   * [How to Deploy AWS Layers With Lambda And Serverless.js](https://medium.com/harrythegreat/build-aws-layers-lambda-serverless-js-42cd6d17b155)
   * [New for AWS Lambda – Use Any Programming Language and Share Common Components](https://aws.amazon.com/tw/blogs/aws/new-for-aws-lambda-use-any-programming-language-and-share-common-components/)
     * 使用 lambda layers 來試試 

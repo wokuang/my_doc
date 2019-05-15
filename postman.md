@@ -1,5 +1,8 @@
 # 有關 postman 的相關資料
 
+## Test Scripts
+  * [Test examples](https://learning.getpostman.com/docs/postman/scripts/test_examples/)
+
 ## Course
   - [Postman Fundamentals](https://app.pluralsight.com/library/courses/postman-fundamentals/description)
     - [taylonr/postman](https://github.com/taylonr/postman) sample code

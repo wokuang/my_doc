@@ -23,6 +23,13 @@
 ## library
   * [SQLAlchemy Library](https://www.sqlalchemy.org/library.html#tutorials) ** 有時間來看看
 
+## object serialization 的方式
+  * 使用 Marshmallow - A Python Object Serialization Library 來做
+  * [marshmallow: simplified object serialization](https://marshmallow.readthedocs.io/en/2.x-line/) ** 官方文件
+    * [[marshmallow Examples](https://marshmallow.readthedocs.io/en/2.x-line/examples.html)
+  * [marshmallow-sqlalchemy](https://marshmallow-sqlalchemy.readthedocs.io/en/latest/)
+  * [Flask RESTful API开发之序列化与反序列化](https://blog.igevin.info/posts/flask-rest-serialize-deserialize/)
+
 ## document
   * [SQLAlchemy Basics Tutorial](https://leportella.com/english/2019/01/10/sqlalchemy-basics-tutorial.html) ** 先看看這份
   * [SQLAlchemy - from Python Cheatsheet](https://www.pythonsheets.com/notes/python-sqlalchemy.html) ** 這份也很好
