@@ -34,6 +34,14 @@ timestamp is 1557238787
 ## python api
   * [Top Python APIs](https://www.programcreek.com/python/index/module/list) ** 找 python sample code 滿有趣的地方
 
+## python package management
+  * use pipenv to manage package - Pipenv 是一個整合 Pipfile, pip, virtualenv 的套件管理工具
+  * [Pipenv: Python Dev Workflow for Humans](http://docs.pipenv.org/en/latest/) ** official doc
+  * [Managing Application Dependencies](https://packaging.python.org/tutorials/managing-dependencies/#managing-dependencies) ** python official site introduction 
+  * [Pipenv 使用教學](https://blog.chairco.me/posts/2017/02/Pipenv%20tutorial.html)
+  * [Pipenv指令大全](https://medium.com/@johnnyellisjohnny/pipenv%E6%8C%87%E4%BB%A4%E5%A4%A7%E5%85%A8-6e4415cc8a15)
+  * [Please explain the usage of Pipfile and Pipfile.lock](https://stackoverflow.com/questions/46330327/please-explain-the-usage-of-pipfile-and-pipfile-lock)
+
 ## python tutorial
   * [【GitHub 上破萬顆星】Python 新手 100 天學習計劃，這次學不會算我輸！](https://buzzorange.com/techorange/2019/05/07/python-100-days/)
   * [jackfrued/Python-100-Days](https://github.com/jackfrued/Python-100-Days) - Python - 100天从新手到大师

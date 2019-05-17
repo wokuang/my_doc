@@ -35,6 +35,7 @@
     * auth 透過 api-gateway 的方式
   * [Strategies for implementing user authentication in serverless applications](https://serverless.com/blog/strategies-implementing-user-authentication-serverless-applications/)
     * Amazon provides a [python blueprint](https://github.com/awslabs/aws-apigateway-lambda-authorizer-blueprints/blob/master/blueprints/python/api-gateway-authorizer-python.py) for implementing authorizer functions
+      * [python blueprint](https://github.com/awslabs/aws-apigateway-lambda-authorizer-blueprints/tree/master/blueprints/python)
   * [The Complete Guide to Custom Authorizers with AWS Lambda and API Gateway](https://www.alexdebrie.com/posts/lambda-custom-authorizers/) ** 進行的概念
   * [API Gateway - Custom Authorizer using Lambda](https://rickhw.github.io/2018/02/04/AWS/Study-Notes-API-Gateway-Custom-Authorizer-using-Lambda/) ** 要看
 
@@ -141,10 +142,12 @@ def handler(event, context):
   * [AWS Lambda 合作夥伴](https://aws.amazon.com/tw/lambda/partners/)
   * [Lambda layers for python runtime](https://nordcloud.com/lambda-layers-for-python-runtime/)
   * [Getting started with AWS Lambda Layers for Python](https://medium.com/@adhorn/getting-started-with-aws-lambda-layers-for-python-6e10b1f9a5d) ** 簡易範例
-  * [How to Deploy AWS Layers With Lambda And Serverless.js](https://medium.com/harrythegreat/build-aws-layers-lambda-serverless-js-42cd6d17b155)
+  * [How to Deploy AWS Layers With Lambda And Serverless.js](https://medium.com/harrythegreat/build-aws-layers-lambda-serverless-js-42cd6d17b155) ** 重要，要找時間看看
   * [New for AWS Lambda – Use Any Programming Language and Share Common Components](https://aws.amazon.com/tw/blogs/aws/new-for-aws-lambda-use-any-programming-language-and-share-common-components/)
     * 使用 lambda layers 來試試 
+  * [LAMBDA LAYERS FOR PYTHON RUNTIME - What is AWS Lambda and Lambda Layer?](https://nordcloud.com/lambda-layers-for-python-runtime/)
   * [How to publish and use AWS Lambda Layers with the Serverless Framework](https://serverless.com/blog/publish-aws-lambda-layers-serverless-framework/)
+  * [mthenw/awesome-layers](https://github.com/mthenw/awesome-layers) - λ A curated list of awesome AWS Lambda Layers.
   * [dschep/sqlite-lambda-layer](https://github.com/dschep/sqlite-lambda-layer)
  
 ## serverless - plugin
