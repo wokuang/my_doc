@@ -42,6 +42,11 @@ timestamp is 1557238787
   * [Pipenv指令大全](https://medium.com/@johnnyellisjohnny/pipenv%E6%8C%87%E4%BB%A4%E5%A4%A7%E5%85%A8-6e4415cc8a15)
   * [Please explain the usage of Pipfile and Pipfile.lock](https://stackoverflow.com/questions/46330327/please-explain-the-usage-of-pipfile-and-pipfile-lock)
 
+## template engine
+  * [Template Engines](https://www.fullstackpython.com/template-engines.html)
+  * [3 Python template libraries compared](https://opensource.com/resources/python/template-libraries)
+  * [Mako Templates for Python](https://www.makotemplates.org/)
+
 ## python tutorial
   * [【GitHub 上破萬顆星】Python 新手 100 天學習計劃，這次學不會算我輸！](https://buzzorange.com/techorange/2019/05/07/python-100-days/)
   * [jackfrued/Python-100-Days](https://github.com/jackfrued/Python-100-Days) - Python - 100天从新手到大师

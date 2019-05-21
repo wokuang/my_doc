@@ -1,6 +1,5 @@
 # Serverless document
 
-
 ## example
   - [aws-samples/aws-serverless-workshops](https://github.com/aws-samples/aws-serverless-workshops) ** 可以試試這邊的範例
 
@@ -58,3 +57,6 @@
 ## using framework
   - [awslabs/serverless-application-model](https://github.com/awslabs/serverless-application-model) AWS Serverless Application Model (AWS SAM) prescribes rules for expressing Serverless applications on AWS.
   - [serverless/serverless](https://github.com/serverless/serverless)
+
+## samples
+  * [带您玩转Lambda，轻松构建Serverless后台！](https://aws.amazon.com/cn/blogs/china/lambda-serverless/)
