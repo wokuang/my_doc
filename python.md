@@ -42,10 +42,16 @@ timestamp is 1557238787
   * [Pipenv指令大全](https://medium.com/@johnnyellisjohnny/pipenv%E6%8C%87%E4%BB%A4%E5%A4%A7%E5%85%A8-6e4415cc8a15)
   * [Please explain the usage of Pipfile and Pipfile.lock](https://stackoverflow.com/questions/46330327/please-explain-the-usage-of-pipfile-and-pipfile-lock)
 
+## regex
+  * [PYTHON regular expression 實戰](https://ithelp.ithome.com.tw/articles/10197315)
+  * [online regular expression](https://regex101.com/) ** 線上驗證 regex 用，滿好用的
+
 ## template engine
   * [Template Engines](https://www.fullstackpython.com/template-engines.html)
   * [3 Python template libraries compared](https://opensource.com/resources/python/template-libraries)
   * [Mako Templates for Python](https://www.makotemplates.org/)
+    * [Mako Documentation](https://docs.makotemplates.org/en/latest/)
+  * [Html Reports Using Mako Templates](https://doc.odoo.com/6.0/es/developer/3_11_reports/11_3_mako2html_report/)
 
 ## python tutorial
   * [【GitHub 上破萬顆星】Python 新手 100 天學習計劃，這次學不會算我輸！](https://buzzorange.com/techorange/2019/05/07/python-100-days/)

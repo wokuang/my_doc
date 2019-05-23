@@ -14,8 +14,12 @@
 
 ## wordpress 偵測
   - 當你進到一個網站，有看到你想要的外掛功能或是佈景主題，可以到利用 [wpthemedetector] (https://www.wpthemedetector.com/)看看，這網站可以讓你反查WordPress網站所使用的佈景主題或是有使用哪些外掛，雖然不會是完整的，但還是可以參考。
+
 ## 一些使用 wordpress 的推薦文章
   - [自架wordpress部落格，你必須懂的幾件事](http://nicaiqing.com/blog/1884/%E8%87%AA%E6%9E%B6wordpress%E9%83%A8%E8%90%BD%E6%A0%BC.html)
+
+## developer
+  * [A Learning Path for Newbies in WordPress Development](https://medium.freecodecamp.org/learning-path-for-newbies-in-wordpress-development-a283981adf53)
 
 ## 標籤還是分類
   - [標籤的用法，其實不是很多小編想的那樣](https://fredjame.com/tag-bf52d7cdb036)
@@ -36,6 +40,25 @@
 
 ## 有關 Database
   * [Database Description](https://codex.wordpress.org/Database_Description)
+
+## Tips
+  * [WordPress Tips：完美解決各種 Cache 外掛造成 WP-PostViews 不計數的衝突](https://carrielis.com/post/fix-all-kinds-cache-plugins-with-wordpress-postviews-plugin-unable-to-counts-bug.html)
+
+## CDN
+  * Cloudflare
+  * [Introducing Argo — A faster, more reliable, more secure Internet for everyone](https://blog.cloudflare.com/argo/)
+
+## Website Speed Test
+  * [Pingdom Website Speed Test](https://tools.pingdom.com/)
+
+## Tools
+  * [ngrok](https://ngrok.com/) - Public URLs for exposing your local web server.
+
+## Forum
+  * [2018 taipei wordpress WordCamp 講者簡報及影片紀錄](https://2018.taipei.wordcamp.org/2018/10/29/slideshows)
+
+## 可以參考的網站
+  * [新手站長](https://newbieboss.com/)
 
 ## Reference
   * [WordPress教學：32個課程（安裝＋主題外掛＋購物車）](https://daotw.com/wordpress%E6%95%99%E5%AD%B8/)

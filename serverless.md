@@ -8,6 +8,12 @@
   - API gateway
   - DynamoDB
 
+## tutorial
+  * [Serverless Stack](https://serverless-stack.com/) - Learn to Build Full-Stack Apps with Serverless and React on AWS ** 一份很完整的文件
+
+## 有關 lambda logging
+  * [Centralised logging for AWS Lambda](https://hackernoon.com/centralised-logging-for-aws-lambda-b765b7ca9152)
+
 ## 可以參考的文件
   - [Building Dynamic Dashboards Using AWS Lambda and Amazon DynamoDB Streams: Part II](https://medium.com/aws-activate-startup-blog/building-dynamic-dashboards-using-aws-lambda-and-amazon-dynamodb-streams-part-ii-b2d883bebde5)
   - 白皮書 [AWS 無伺服器多層架構：使用 Amazon API Gateway 和 AWS Lambda](https://d0.awsstatic.com/whitepapers/AWS_Serverless_Multi-Tier_Archiectures.pdf)
