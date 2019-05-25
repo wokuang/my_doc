@@ -20,6 +20,7 @@
 
 ## developer
   * [A Learning Path for Newbies in WordPress Development](https://medium.freecodecamp.org/learning-path-for-newbies-in-wordpress-development-a283981adf53)
+  * [WordPress的Hook機制與原理](http://www.mrmu.com.tw/2011/10/10/wordpress-hook/)
 
 ## 標籤還是分類
   - [標籤的用法，其實不是很多小編想的那樣](https://fredjame.com/tag-bf52d7cdb036)
@@ -28,6 +29,11 @@
   - Updraft Plus
     - [UPDRAFTPLUS WORDPRESS BACKUP PLUGIN – 網站自動備份外掛程式](https://wordpress.blog.tw/updraftplus-wordpress-backup-plugin/)
   - [WordPress 基礎教學：絕對必裝的 JetPack 外掛](https://startpress.cc/post/jetpack-for-wordpress.html)
+
+## SSL / https
+  * [在 WordPress 設定 HTTPS，強制使用 SSL 安全加密協定教學](https://free.com.tw/moving-to-https-on-wordpress/)
+  * [『教學』WordPress 設定HTTPS，使用SSL安全加密協定，SEO提升](https://www.techmarks.com/wordpress-https-tech/)
+  * [WordPress 設定 HTTPS 網址，強制使用 SSL 安全加密協定教學](https://blog.gtwang.org/wordpress/moving-to-https-on-wordpress/)
 
 ## 有關 theme 的部分
 
@@ -57,8 +63,15 @@
 ## Forum
   * [2018 taipei wordpress WordCamp 講者簡報及影片紀錄](https://2018.taipei.wordcamp.org/2018/10/29/slideshows)
 
+## backup
+  * 先用 plugin 的方式來做，之後在想想如何切換
+  * [How to Backup and Restore a WordPress site – Step by Step](https://www.enginethemes.com/backup-restore-wordpress-site/) 
+  * [The Foolproof Guide to Backing Up WordPress Without a Plugin](https://skillcrush.com/2015/04/23/backing-up-wordpress/)
+
 ## 可以參考的網站
   * [新手站長](https://newbieboss.com/)
+    * [如何快速增加臉書粉專粉絲數：我的粉絲增長術大公開 - 2017年實際案例分析](https://newbieboss.com/how-to-grow-facebook-fans-fast/)
+    * [如何為你的電商網站快速獲得高品質流量：3個必學的部落格寫作方法](https://newbieboss.com/content-marketing-tips/)
 
 ## Reference
   * [WordPress教學：32個課程（安裝＋主題外掛＋購物車）](https://daotw.com/wordpress%E6%95%99%E5%AD%B8/)
