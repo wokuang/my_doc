@@ -29,6 +29,7 @@
   - Updraft Plus
     - [UPDRAFTPLUS WORDPRESS BACKUP PLUGIN – 網站自動備份外掛程式](https://wordpress.blog.tw/updraftplus-wordpress-backup-plugin/)
   - [WordPress 基礎教學：絕對必裝的 JetPack 外掛](https://startpress.cc/post/jetpack-for-wordpress.html)
+  - [Beginner’s Guide to Creating 301 Redirects in WordPress (Step by Step)](https://www.wpbeginner.com/beginners-guide/beginners-guide-to-creating-redirects-in-wordpress/
 
 ## SSL / https
   * [在 WordPress 設定 HTTPS，強制使用 SSL 安全加密協定教學](https://free.com.tw/moving-to-https-on-wordpress/)
@@ -60,6 +61,9 @@
 ## Tools
   * [ngrok](https://ngrok.com/) - Public URLs for exposing your local web server.
 
+## Table Schema
+  * [WordPress 数据结构分析](https://www.oschina.net/question/163913_32508)
+
 ## Forum
   * [2018 taipei wordpress WordCamp 講者簡報及影片紀錄](https://2018.taipei.wordcamp.org/2018/10/29/slideshows)
 
@@ -67,6 +71,10 @@
   * 先用 plugin 的方式來做，之後在想想如何切換
   * [How to Backup and Restore a WordPress site – Step by Step](https://www.enginethemes.com/backup-restore-wordpress-site/) 
   * [The Foolproof Guide to Backing Up WordPress Without a Plugin](https://skillcrush.com/2015/04/23/backing-up-wordpress/)
+
+## 有關 google search
+  * 可以看看 google 是如何進行 search 的
+  * [https://search.google.com/search-console](https://search.google.com/search-console)
 
 ## 可以參考的網站
   * [新手站長](https://newbieboss.com/)
