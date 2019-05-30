@@ -10,3 +10,8 @@
 
 ## 說明文件
   * [使用 Pelican 建立 blog](http://weichengliou.github.io/blog/blog/2014/08/07/buildblog/)
+  * [設定部落格筆記](https://blog.liang2.tw/posts/2015/09/blog-internals/)
+
+## theme
+  * [getpelican/pelican-themes](https://github.com/getpelican/pelican-themes)
+

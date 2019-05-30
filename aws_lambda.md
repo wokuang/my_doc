@@ -35,6 +35,14 @@
 ## using AWS cli example
   - [Your First Python Lambda Function on AWS Using the AWS CLI Tools](https://sysadmins.co.za/your-first-python-lambda-function-on-aws-using-the-aws-cli-tools/)
 
+## 跟 S3 meta-data 互動
+  * [get file metadata from S3 using Python boto](https://stackoverflow.com/questions/50271946/get-file-metadata-from-s3-using-python-boto)
+  * [boto3 how to create object with metadata?](https://stackoverflow.com/questions/33771318/boto3-how-to-create-object-with-metadata)
+```
+s3.Object('bucket-name', 'uuid-key-name').put(Body='data',
+                                              Metadata={'key-name':'value'})
+```
+
 ## Reference
   * [Best Practices for Working with AWS Lambda Functions](https://docs.aws.amazon.com/en_us/lambda/latest/dg/best-practices.html)
   * [Tutorial: Configuring a Lambda Function to Access Amazon ElastiCache in an Amazon VPC](https://docs.aws.amazon.com/en_us/lambda/latest/dg/vpc-ec.html)

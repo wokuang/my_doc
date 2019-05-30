@@ -72,6 +72,9 @@
   * [How to Backup and Restore a WordPress site – Step by Step](https://www.enginethemes.com/backup-restore-wordpress-site/) 
   * [The Foolproof Guide to Backing Up WordPress Without a Plugin](https://skillcrush.com/2015/04/23/backing-up-wordpress/)
 
+## 留言管理系統
+  * [DISQUS 整合性留言管理系統 (支援 WordPress、Blogger)](https://sofree.cc/disqus/)
+
 ## 有關 google search
   * 可以看看 google 是如何進行 search 的
   * [https://search.google.com/search-console](https://search.google.com/search-console)
