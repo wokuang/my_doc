@@ -66,6 +66,7 @@
 ## 設定 custom domain
   * [How to set up a custom domain name for Lambda & API Gateway with Serverless](https://serverless.com/blog/serverless-api-gateway-domain/) 
     * [amplify-education/serverless-domain-manager](https://github.com/amplify-education/serverless-domain-manager)
+  * [Custom domain for different stages](https://forum.serverless.com/t/custom-domain-for-different-stages/4539)
 
 ## 還要來看看的
   * [Where to start: the most popular Framework plugins](https://serverless.com/blog/most-popular-framework-plugins/)

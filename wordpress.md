@@ -79,6 +79,10 @@
   * 可以看看 google 是如何進行 search 的
   * [https://search.google.com/search-console](https://search.google.com/search-console)
 
+## 有關 WP_Query 的說明
+  * [绝对干货：WordPress 自定义查询 WP_Query 所有参数详细注释](https://www.wpzhiku.com/all-wp_query-arguments-comments/)
+  * [WordPress 函数 WP_Query](https://www.anttoweb.com/kb/wordpress-wp_query/)
+
 ## 可以參考的網站
   * [新手站長](https://newbieboss.com/)
     * [如何快速增加臉書粉專粉絲數：我的粉絲增長術大公開 - 2017年實際案例分析](https://newbieboss.com/how-to-grow-facebook-fans-fast/)
