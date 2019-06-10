@@ -9,6 +9,9 @@
 ## 一些介紹
   * [Full Stack Python Serverless](https://www.fullstackpython.com/serverless.html)
 
+## run serverless locally
+  * [Running AWS Lambda and API Gateway locally: serverless-offline](https://medium.com/a-man-with-no-server/running-aws-lambda-and-api-gateway-locally-serverless-offline-3c64b3e54772)
+
 ## 一些試過的 example
   * [AWS | Scheduled Cron Example](https://serverless.com/examples/aws-python-scheduled-cron/)
     * $ serverless logs --function cron --tail # 看 log 用的 command

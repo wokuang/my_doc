@@ -24,6 +24,9 @@
 
 所以的檔案都放置在一個目錄底下，當你經由 Chrome Developer Dashboard發佈，他會為打包成一個.crx包裝檔。關於發佈的詳情教學，我們會在後面討論。 
 
+## copyAsMarkdownLink - 自己想要的 chrome extension
+  * 想要寫一個 extension，可以將目前選取的文字 & 這個網頁的 url，組合成一個 Markdown 需要的 link 方式 
+
 ## Reference Data
   * [Programming from A to Z Chrome Extensions](https://shiffman.net/a2z/chrome-ext/) - 滿有趣的 教學 **
   * [Chrome Permissions](https://developer.chrome.com/extensions/declare_permissions)

@@ -10,6 +10,7 @@
 
 ## Test Scripts
   * [Test examples](https://learning.getpostman.com/docs/postman/scripts/test_examples/)
+  * [Postman Cheatsheet api 文件](https://postman-quick-reference-guide.readthedocs.io/en/latest/cheatsheet.html)
 
 ## Variable
   * [10 tips for working with Postman variables](https://blog.getpostman.com/2017/12/29/10-tips-for-working-with-postman-variables/)
