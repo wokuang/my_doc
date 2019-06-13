@@ -32,6 +32,13 @@
       * [aws-python-pynamodb-s3-sigurl: Cannot read property 'toString' of null ](https://github.com/serverless/examples/issues/364)
   * [AWS | Auth0 Custom Authorizers API](https://serverless.com/examples/aws-python-auth0-custom-authorizers-api/)
 
+## 設定最小的 IAM 權限
+  * 因為要用 jenkis 來跑 serverless，設定一個權限較小的 IAM 是需要的，試了滿久才完成的
+  * 主要參考底下幾篇，但是因為有用到 serverless-domain-manager plugin，還是另外加一些 apigateway 的權限
+  * [Serverless Framework: Minimal IAM role Permissions](https://medium.com/@dav009/serverless-framework-minimal-iam-role-permissions-ba34bec0154e)
+  * [Customize the Serverless IAM Policy](https://serverless-stack.com/chapters/customize-the-serverless-iam-policy.html)
+  * [Production AWS permissions](https://github.com/serverless/serverless/issues/588)
+
 ## 有關 authentication
   * 預計實作的方向
     * session 自己編
@@ -70,6 +77,12 @@
   * [How to set up a custom domain name for Lambda & API Gateway with Serverless](https://serverless.com/blog/serverless-api-gateway-domain/) 
     * [amplify-education/serverless-domain-manager](https://github.com/amplify-education/serverless-domain-manager)
   * [Custom domain for different stages](https://forum.serverless.com/t/custom-domain-for-different-stages/4539)
+  * 有關 serverless domain manager 遇到的 bug
+    * [No base path mapping is being set](https://github.com/amplify-education/serverless-domain-manager/issues/57)
+    * 無法設定 base path mapping 時，可以先試試 aws 的 command 來確認
+```
+$ aws apigateway get-base-path-mappings --domain-name my.custom.domain.name
+```
 
 ## 還要來看看的
   * [Where to start: the most popular Framework plugins](https://serverless.com/blog/most-popular-framework-plugins/)
