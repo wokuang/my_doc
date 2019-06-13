@@ -77,6 +77,15 @@ hello world
 ## 讓 docker 讀外部的資料 (volumn)
   * [Docker 實戰系列（三）：使用 Volume 保存容器內的數據](https://larrylu.blog/using-volumn-to-persist-data-in-container-a3640cc92ce4)
 
+## docker 遇到一些神奇的問題
+  * 在 docker 中，無法順利的執行 curl 取回資料，會出現 timeout
+  * 在 container 執行某個 curl 網址會異常，host 可正常執行
+```
+$ curl -v "https://apigateway.us-west-2.amazonaws.com/domainnames/sig-dev.cs.txone-networks.com/basepathmappings"
+```
+  * 解法：host上面的mtu，跟container裡面的不同，似乎導致了封包異常。修改 MTU 後，恢復正常
+  * [How we spent a full day figuring out a MTU issue with docker](https://medium.com/@sylwit/how-we-spent-a-full-day-figuring-out-a-mtu-issue-with-docker-4d81fdfe2caf)
+
 ## Reference
   * [docker中如何删除image（镜像）](http://yaxin-cn.github.io/Docker/how-to-delete-a-docker-image.html)
   * [建立 private 的 Docker Registry](https://ithelp.ithome.com.tw/articles/10191213)
