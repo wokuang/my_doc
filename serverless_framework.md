@@ -38,6 +38,15 @@
   * [Serverless Framework: Minimal IAM role Permissions](https://medium.com/@dav009/serverless-framework-minimal-iam-role-permissions-ba34bec0154e)
   * [Customize the Serverless IAM Policy](https://serverless-stack.com/chapters/customize-the-serverless-iam-policy.html)
   * [Production AWS permissions](https://github.com/serverless/serverless/issues/588)
+  * 設定最小的 IAM 過程中，出現的 error
+    * 會出現 An error occurred: ServerlessDeploymentBucket - API: s3:SetBucketEncryption Access Denied.
+      * 需要加入特定的 S3 權限
+```
+- s3:GetEncryptionConfiguration
+- s3:PutEncryptionConfiguration
+```
+      * [An error occurred: ServerlessDeploymentBucket - API: s3:SetBucketEncryption Access Denied](https://github.com/serverless/serverless/issues/5919)
+      *	[Unable to locate the permission referenced in a CloudFormation error.](https://forums.aws.amazon.com/thread.jspa?messageID=827867)
 
 ## 有關 authentication
   * 預計實作的方向
