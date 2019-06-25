@@ -29,3 +29,4 @@ $ docker-compose run web env
 
 ## reference
   * [Docker Compose 建置 Web service 起步走入門教學](https://blog.techbridge.cc/2018/09/07/docker-compose-tutorial-intro/)
+  * [Using Docker Compose to Run Your Applications](https://medium.com/rate-engineering/using-docker-containers-to-run-a-distributed-application-locally-eeabd360bca3)
