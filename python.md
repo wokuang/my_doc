@@ -46,6 +46,10 @@ timestamp is 1557238787
   * [PYTHON regular expression 實戰](https://ithelp.ithome.com.tw/articles/10197315)
   * [online regular expression](https://regex101.com/) ** 線上驗證 regex 用，滿好用的
 
+## password hash
+  * using bcrypt as password hash
+  * [Salt and Hash Example Using Python With Bcrypt on Alpine](https://blog.ruanbekker.com/blog/2018/07/04/salt-and-hash-example-using-python-with-bcrypt-on-alpine/)
+
 ## template engine
   * [Template Engines](https://www.fullstackpython.com/template-engines.html)
   * [3 Python template libraries compared](https://opensource.com/resources/python/template-libraries)
