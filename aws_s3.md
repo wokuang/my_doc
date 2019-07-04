@@ -13,3 +13,4 @@
     * [使用 AWS S3, Cloudfront 部屬 Custom Domain HTTPS 靜態網頁](https://medium.com/@david74.chou/%E4%BD%BF%E7%94%A8-aws-s3-cloudfront-%E9%83%A8%E5%B1%AC-custom-domain-https-%E9%9D%9C%E6%85%8B%E7%B6%B2%E9%A0%81-eddd9c9ad9d1)
       * 這邊有個雷，因為 Cloudfront 只支援 us-east-1 的 ACM certificate，所以切記要先切到 us-east-1 region 再來申請 SSL 憑證啊
     * [Moving a static website to AWS S3 + CloudFront with HTTPS](https://medium.com/@willmorgan/moving-a-static-website-to-aws-s3-cloudfront-with-https-1fdd95563106)
+    * [Simple site hosting with Amazon S3 and HTTPS](https://www.freecodecamp.org/news/simple-site-hosting-with-amazon-s3-and-https-5e78017f482a/)
