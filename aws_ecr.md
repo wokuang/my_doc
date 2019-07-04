@@ -11,6 +11,10 @@ $ aws --profile admin ecr set-repository-policy --repository-name repo1 --policy
 $ aws --profile power-dev-serverless iam create-user --user-name=bruce-test1
 $ aws --profile power-dev-serverless iam create-access-key --user-name=bruce-test1
 ```
+  * 設定 policy 的方式，目前僅能用 command line 來設定  
+```
+$ aws ecr set-repository-policy --repository-name dev/acus/fe --policy-text file://devPolicy.json
+```
 
 ## Reference
   * [Amazon ECR Repository Policy Examples](https://docs.aws.amazon.com/AmazonECR/latest/userguide/RepositoryPolicyExamples.html)
