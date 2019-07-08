@@ -52,3 +52,6 @@ $ aws ecr set-repository-policy --repository-name dev/acus/fe --policy-text file
   * [How to connect to AWS ECR using python docker-py](https://serverfault.com/questions/856485/how-to-connect-to-aws-ecr-using-python-docker-py)
   * [boto3 ecr get_authorization_token return incorrect token](https://github.com/boto/boto3/issues/533) 參考這部分，來實作 boto3 的 code
   * [boto3 Docs Available Services ECR](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/ecr.html)
+
+## 進階技巧
+  * [Enable AWS Elastic Container Registry custom domain and anonymous access over private network](https://itnext.io/enable-aws-elastic-container-registry-custom-domain-and-anonymous-access-over-private-network-123d07663709)
