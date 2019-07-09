@@ -88,6 +88,9 @@
     * [如何快速增加臉書粉專粉絲數：我的粉絲增長術大公開 - 2017年實際案例分析](https://newbieboss.com/how-to-grow-facebook-fans-fast/)
     * [如何為你的電商網站快速獲得高品質流量：3個必學的部落格寫作方法](https://newbieboss.com/content-marketing-tips/)
 
+## 一些教學網站
+  * [小訣學院](https://study.smallway.tw)
+
 ## Reference
   * [WordPress教學：32個課程（安裝＋主題外掛＋購物車）](https://daotw.com/wordpress%E6%95%99%E5%AD%B8/)
   * [SiteGround WordPress Tutorial](https://www.siteground.com/tutorials/wordpress/)
