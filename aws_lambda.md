@@ -50,6 +50,12 @@ s3.Object('bucket-name', 'uuid-key-name').put(Body='data',
   * [Best Practices for Working with AWS Lambda Functions](https://docs.aws.amazon.com/en_us/lambda/latest/dg/best-practices.html)
   * [Tutorial: Configuring a Lambda Function to Access Amazon ElastiCache in an Amazon VPC](https://docs.aws.amazon.com/en_us/lambda/latest/dg/vpc-ec.html)
 
+## lambda runtime
+  * [Introducing the C++ Lambda Runtime](https://aws.amazon.com/tw/blogs/compute/introducing-the-c-lambda-runtime/)
+    * Amazon Linux
+  * [AWS Lambda Runtimes](https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html)
+    
+
 ## Course
   - AWS Developers: Serverless Architecture and Monitoring - ongoin 2019-02-27
   - Deploying Serverless Applications in AWS Using the Serverless Application Model
