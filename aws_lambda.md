@@ -54,7 +54,9 @@ s3.Object('bucket-name', 'uuid-key-name').put(Body='data',
   * [Introducing the C++ Lambda Runtime](https://aws.amazon.com/tw/blogs/compute/introducing-the-c-lambda-runtime/)
     * Amazon Linux
   * [AWS Lambda Runtimes](https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html)
-    
+   
+## 關於將 lambda 放在 production 的相關事項
+  * [How to operate reliable AWS Lambda applications in production](https://www.concurrencylabs.com/blog/how-to-operate-aws-lambda/)
 
 ## Course
   - AWS Developers: Serverless Architecture and Monitoring - ongoin 2019-02-27
