@@ -58,6 +58,11 @@ s3.Object('bucket-name', 'uuid-key-name').put(Body='data',
 ## 關於將 lambda 放在 production 的相關事項
   * [How to operate reliable AWS Lambda applications in production](https://www.concurrencylabs.com/blog/how-to-operate-aws-lambda/)
 
+## 如果強制將 lambda container 重啟
+  * 當 lambda 的 code 沒有寫好時，要強制重啟的方式是重新 deploy lambda
+  * [Force Discard AWS Lambda Container](https://stackoverflow.com/questions/47445815/force-discard-aws-lambda-container/47447475#47447475)
+  * [Restarting AWS lambda function to clear cache](https://stackoverflow.com/questions/50866472/restarting-aws-lambda-function-to-clear-cache)
+
 ## Course
   - AWS Developers: Serverless Architecture and Monitoring - ongoin 2019-02-27
   - Deploying Serverless Applications in AWS Using the Serverless Application Model
