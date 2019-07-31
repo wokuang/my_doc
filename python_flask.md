@@ -5,6 +5,9 @@
   * [Designing a RESTful API with Python and Flask](https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask) ** 這篇值得一讀
   * [Designing a RESTful API using Flask-RESTful](https://blog.miguelgrinberg.com/post/designing-a-restful-api-using-flask-restful) * 用 Flask-RESTful 來進行
 
+## 使用 restful package 來進行
+  * [Flask-RESTful](https://flask-restful.readthedocs.io/en/latest/)
+
 ## 一些 python reference
   * [Getting a map() to return a list in Python 3.x](https://stackoverflow.com/questions/1303347/getting-a-map-to-return-a-list-in-python-3-x)
   * [Python高手都知道的内置函数，你不知道就low了](https://zhuanlan.zhihu.com/p/26097557)
