@@ -30,6 +30,16 @@
   * [marshmallow-sqlalchemy](https://marshmallow-sqlalchemy.readthedocs.io/en/latest/)
   * [Flask RESTful API开发之序列化与反序列化](https://blog.igevin.info/posts/flask-rest-serialize-deserialize/)
 
+## connection pool & SQLAlchemy session
+  * [SQLAlchemy session 使用问题](http://einverne.github.io/post/2017/05/sqlalchemy-session.html)
+  * 設定不使用 connection pool 參考 [Switching Pool Implementations](https://docs.sqlalchemy.org/en/13/core/pooling.html)
+    * 將 poolclass 設定為 NullPool
+  * [How to close a SQLAlchemy session?](https://stackoverflow.com/questions/21738944/how-to-close-a-sqlalchemy-session)
+  * 應該也可以試試將 pool_pre_ping 設定為 True
+  * [Python Sqlalchemy 数据库连接池](http://qinfei.glrsmart.com/2017/11/17/python-sqlalchemy-shu-ju-ku-lian-jie-chi/)
+  * [SQLAlchemy pre-ping 機制](https://myapollo.com.tw/2019/06/05/sqlalchemy-pre-ping/)
+  * [SQLAlchemy 的连接池机制](https://sanyuesha.com/2019/01/02/sqlalchemy-pool-mechanism/)
+
 ## document
   * [SQLAlchemy Basics Tutorial](https://leportella.com/english/2019/01/10/sqlalchemy-basics-tutorial.html) ** 先看看這份
   * [SQLAlchemy - from Python Cheatsheet](https://www.pythonsheets.com/notes/python-sqlalchemy.html) ** 這份也很好
