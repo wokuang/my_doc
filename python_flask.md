@@ -4,6 +4,7 @@
   * [Building a simple REST API with Python and Flask](https://medium.com/@onejohi/building-a-simple-rest-api-with-python-and-flask-b404371dc699)
   * [Designing a RESTful API with Python and Flask](https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask) ** 這篇值得一讀
   * [Designing a RESTful API using Flask-RESTful](https://blog.miguelgrinberg.com/post/designing-a-restful-api-using-flask-restful) * 用 Flask-RESTful 來進行
+  * [Primer on Jinja Templating](https://realpython.com/primer-on-jinja-templating/)
 
 ## 使用 restful package 來進行
   * [Flask-RESTful](https://flask-restful.readthedocs.io/en/latest/)
