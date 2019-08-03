@@ -18,6 +18,22 @@ $ awslogs get --watch /var/log/syslog
 ```
 $ awslogs get /aws/lambda/cloud-update-prod-* --start='1d ago' | grep -i "ccbfd8b2-e0d8-445a-9ef0-a6f899d761ef"
 ```
+  * 使用類似 tail -f 的方式，用 --watch 來看
+```
+$ awslogs get /aws/lambda/cloud-update-dev-getNewestCompByCompId ALL --watch
+```
+
+  * 前置設定
+    * 進入到 virtual env 中
+```
+$ lsvirtualenv
+$ workon aws
+```
+    * 使用對應的 aws profile
+```
+$ source ~/bin/setPowerAws.sh
+```
+
   * reference
     * [How do I filter and extract raw log event data from Amazon Cloudwatch](https://stackoverflow.com/questions/27804342/how-do-i-filter-and-extract-raw-log-event-data-from-amazon-cloudwatch)
     * [ 如何从Amazon Cloudwatch过滤和提取原始日志事件数据](https://365airsoft.com/zh-CN/questions/1470528/amazon-cloudwatch?utm_source=landcareweb.com&utm_medium=Redirect)
