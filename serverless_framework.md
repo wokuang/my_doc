@@ -183,6 +183,9 @@ def handler(event, context):
 ## serverless - plugin
  * [serverless/plugins](https://github.com/serverless/plugins)
 
+## 跟 store secret 有關的
+  * [Managing secrets, API keys and more with Serverless](https://serverless.com/blog/serverless-secrets-api-keys/)
+
 ## lambda connect to RDS (using serverless)
   * Lambda 設定 VPC & subnet
   * IAM role 要加 AWSLambdaVPCAccessExecutionRole policy
