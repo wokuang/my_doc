@@ -221,6 +221,9 @@ def handler(event, context):
 ## Example
   *  [AWS | Simple HTTP Endpoint](https://serverless.com/examples/aws-python-simple-http-endpoint/)
 
+## 滿有趣的教學文件
+  * [Source for Serverless-Stack.com](https://github.com/AnomalyInnovations/serverless-stack-com)
+
 ## Reference
   * [Getting started with Serverless framework + AWS Lambda and API Gateway](https://medium.com/@alcalawilfre/get-started-with-serverless-framework-aws-lambda-and-api-gateway-177b2ab1ffca)
   * [AWS Lambda Simplified With Serverless Framework](https://itnext.io/aws-lambda-simplified-with-serverless-framework-8fbc01418422)
