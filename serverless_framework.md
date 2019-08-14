@@ -97,6 +97,7 @@ $ aws apigateway get-base-path-mappings --domain-name my.custom.domain.name
   * [Share authorizer with TOKEN type](https://forum.serverless.com/t/share-authorizer-with-token-type/8121) ** 這篇很重要
   * [Shared Lambda authorizer setup in Serverless Framework](https://stackoverflow.com/questions/53302266/shared-lambda-authorizer-setup-in-serverless-framework)
   * [API Gateway Domains Across Services](https://serverless-stack.com/chapters/api-gateway-domains-across-services.html)
+  * [Sharing API Gateway and Authorizer](http://blog.maxieduncan.co.nz/aws/2018/06/23/sharing-api-gateway-and-authorizer)
   * [API Gateway Share Authorizer](https://serverless.com/framework/docs/providers/aws/events/apigateway/#share-authorizer) official document
 
 ## 還要來看看的
