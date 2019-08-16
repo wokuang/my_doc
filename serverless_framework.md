@@ -225,6 +225,9 @@ def handler(event, context):
   * [4 Tools For Building Production Serverless Architectures with Lambda](https://serverless.com/blog/4-tools-for-building-production-serverless-architectures/)
     * 要找時間看看用 Sentry 來進行 error tracking
 
+## template
+  * [egrajeda/serverless-python-template](https://github.com/egrajeda/serverless-python-template) - A pretty basic template that I use when working with Serverless and Python ** 要來參考、參考
+
 ## Example
   *  [AWS | Simple HTTP Endpoint](https://serverless.com/examples/aws-python-simple-http-endpoint/)
 
