@@ -69,6 +69,9 @@
   * [設定AWS Lambda開發環境且在VPC內能連到外部網路](https://soarlin.github.io/2018/09/01/%E5%A6%82%E4%BD%95%E8%AE%93AWS-Lambda%E5%9C%A8VPC%E5%85%A7%E8%83%BD%E9%80%A3%E5%88%B0%E5%A4%96%E9%83%A8%E7%B6%B2%E8%B7%AF/)
   * [How can I grant internet access to my VPC Lambda function?](https://aws.amazon.com/tw/premiumsupport/knowledge-center/internet-access-lambda-function/)
 
+## python custom module on serverless
+  * [Serverless: Packaging User-Defined Python Modules](https://medium.com/@nate_mitchell/serverless-packaging-user-defined-python-modules-41808776eae0) 
+
 ## Serverless Framework
   * [Test-Driven Serverless Application Development](https://serverless.com/blog/tdd-serverless/)
 
