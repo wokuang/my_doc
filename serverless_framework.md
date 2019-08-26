@@ -9,8 +9,17 @@
 ## 一些介紹
   * [Full Stack Python Serverless](https://www.fullstackpython.com/serverless.html)
 
-## run serverless locally
+## run serverless locally using servless offline
+  * 寫 serverless 時，可以用 offline 的方式進行 local 測試，之後在 deploy 到 AWS 上
+  * 方式為使用 serverless-offline run 一個 local server，接著可以用 curl 進行測試 
+  * [Going Serverless Offline](https://medium.com/@merictaze/going-serverless-offline-8c8ecea7c65c)
   * [Running AWS Lambda and API Gateway locally: serverless-offline](https://medium.com/a-man-with-no-server/running-aws-lambda-and-api-gateway-locally-serverless-offline-3c64b3e54772)
+  * [examples/aws-node-rest-api-with-dynamodb-and-offline](https://github.com/serverless/examples/tree/master/aws-node-rest-api-with-dynamodb-and-offline)
+  * [Serverless offline 開發設定 - 基礎篇](http://tblog.pp4fun.com/2017/11/Serverless%20offline%20%E9%96%8B%E7%99%BC%E8%A8%AD%E5%AE%9A%20-%20%E5%9F%BA%E7%A4%8E%E7%AF%87.html#tags-aws-offline)
+
+## run serverless locally using invoke local 
+  * serverless 有提供 Invoke Local 的方式，當沒有跟其他的 AWS 服務整合時，可以用 Invoke Local 來做簡單的測試
+  * [serverless AWS - Invoke Local](https://serverless.com/framework/docs/providers/aws/cli-reference/invoke-local/)
 
 ## 一些試過的 example
   * [AWS | Scheduled Cron Example](https://serverless.com/examples/aws-python-scheduled-cron/)
