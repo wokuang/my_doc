@@ -67,6 +67,11 @@
   * [The Complete Guide to Custom Authorizers with AWS Lambda and API Gateway](https://www.alexdebrie.com/posts/lambda-custom-authorizers/) ** 進行的概念
   * [API Gateway - Custom Authorizer using Lambda](https://rickhw.github.io/2018/02/04/AWS/Study-Notes-API-Gateway-Custom-Authorizer-using-Lambda/) ** 要看
 
+## lambda versions
+  * [Strategies to Manage AWS Lambda Versions](https://www.mode2.com/news/strategies-to-manage-aws-lambda-versions/)
+  * 設定 auto purge
+    * 使用 [Serverless Prune Plugin](https://github.com/claygregory/serverless-prune-plugin)
+
 ## lambda 有設定 VPC 時，連 s3 的方式
   * 當透過 VPC 時，預設沒有開 internet facing，所以會取不到 s3 object
   * 設定 VPC Endpoint for S3
@@ -249,6 +254,13 @@ def handler(event, context):
 ## Reference
   * [Getting started with Serverless framework + AWS Lambda and API Gateway](https://medium.com/@alcalawilfre/get-started-with-serverless-framework-aws-lambda-and-api-gateway-177b2ab1ffca)
   * [AWS Lambda Simplified With Serverless Framework](https://itnext.io/aws-lambda-simplified-with-serverless-framework-8fbc01418422)
+
+## canary-deployments 
+  * 有時間可以看看的主題
+  * [serverless-plugin-canary-deployments](https://github.com/davidgf/serverless-plugin-canary-deployments) - Canary deployments for your Serverless application
+
+## anti-patterns
+  * [THE SILENCE OF THE LAMBDAS – 5 ANTI-PATTERNS FOR AWS LAMBDA](https://www.3pillarglobal.com/insights/silence-lambdas-5-anti-patterns-aws-lambda)
 
 ## 一些進階的有趣主題
   * [AWS re:Invent 2017: Become a Serverless Black Belt: Optimizing Your Serverless Appli (SRV401)](https://www.youtube.com/watch?v=oQFORsso2go&feature=youtu.be&t=8m5s)
