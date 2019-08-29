@@ -242,6 +242,9 @@ def handler(event, context):
   * [4 Tools For Building Production Serverless Architectures with Lambda](https://serverless.com/blog/4-tools-for-building-production-serverless-architectures/)
     * 要找時間看看用 Sentry 來進行 error tracking
 
+## Best Practices
+  * [AWS LAMBDA SECURITY BEST PRACTICES ](https://www.puresec.io/hubfs/AWS-Lambda-Security-eBook-1.pdf)
+
 ## 可以參考的一些 serverless yml 檔
   * [【Serverless Framework】個人的 serverless.yml 備忘録](https://hacknote.jp/archives/43444/)
 
