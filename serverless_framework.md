@@ -9,6 +9,9 @@
 ## 一些介紹
   * [Full Stack Python Serverless](https://www.fullstackpython.com/serverless.html)
 
+## plugin list
+  * [Serverless Plugins](https://github.com/serverless/plugins) - Extend the Serverless Framework with these community driven plugins – https://www.serverless.com
+
 ## run serverless locally using servless offline
   * 寫 serverless 時，可以用 offline 的方式進行 local 測試，之後在 deploy 到 AWS 上
   * 方式為使用 serverless-offline run 一個 local server，接著可以用 curl 進行測試 
