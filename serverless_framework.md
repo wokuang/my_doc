@@ -112,6 +112,9 @@
 ```
 $ aws apigateway get-base-path-mappings --domain-name my.custom.domain.name
 ```
+  * 共用同一個 custom domain **
+    * [How to deploy multiple micro-services under one API domain with Serverless](https://serverless.com/blog/api-gateway-multiple-services/)
+    * 一開始的 basePath 不能設定為空白的 ""
 
 ## 多個服務設定同一個 api gateway 
   * [Share authorizer with TOKEN type](https://forum.serverless.com/t/share-authorizer-with-token-type/8121) ** 這篇很重要
