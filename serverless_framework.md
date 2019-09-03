@@ -147,7 +147,6 @@ $ aws apigateway get-base-path-mappings --domain-name my.custom.domain.name
 
 ```
 
-
 ## tutorial
   * [The Right Way™ to do Serverless in Python](https://read.iopipe.com/the-right-way-to-do-serverless-in-python-e99535574454) ** 這篇值得一讀，可以用如下的方式來回傳 json 格式
 ```
@@ -187,6 +186,10 @@ def handler(event, context):
 
 ## 一些需要注意的地方 
   * [Serverless Workarounds for CloudFormation's 200 Resource Limit](https://serverless.com/blog/serverless-workaround-cloudformation-200-resource-limit/)
+
+## 在 python 中，使用 custom package 的注意事項
+  * [Serverless: Packaging User-Defined Python Modules](https://medium.com/@nate_mitchell/serverless-packaging-user-defined-python-modules-41808776eae0)
+    * 使用 [serverless-python-requirements](https://github.com/UnitedIncome/serverless-python-requirements) 來達成
 
 ## 可以使用 tag 的方式   
   * Cost estimations (tag functions with an environment tag: environment: Production)
