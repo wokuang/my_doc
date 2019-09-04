@@ -216,6 +216,13 @@ def handler(event, context):
 ## serverless - plugin
  * [serverless/plugins](https://github.com/serverless/plugins)
 
+## 跟 DynamoDB & serverless 相關的部分
+  * [DynamoDB and Serverless](https://serverless.com/dynamodb/) - serverless official site
+
+## 修改 serverless stack name 的參考資料
+  * [serverless Services doc](https://serverless.com/framework/docs/providers/aws/guide/services/) 
+  * [Add option to overwrite stack name](https://github.com/serverless/serverless/issues/2638)
+
 ## 跟 store secret 有關的
   * [Managing secrets, API keys and more with Serverless](https://serverless.com/blog/serverless-secrets-api-keys/)
 
