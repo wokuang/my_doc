@@ -218,6 +218,8 @@ def handler(event, context):
 
 ## 跟 DynamoDB & serverless 相關的部分
   * [DynamoDB and Serverless](https://serverless.com/dynamodb/) - serverless official site
+  * 設定 TTL 相關
+    * [Setting DynamoDB TTL with Lambda Python](https://blog.skbali.com/2019/07/setting-dynamodb-ttl-with-lambda-python/)
 
 ## 修改 serverless stack name 的參考資料
   * [serverless Services doc](https://serverless.com/framework/docs/providers/aws/guide/services/) 
