@@ -220,6 +220,7 @@ def handler(event, context):
   * [DynamoDB and Serverless](https://serverless.com/dynamodb/) - serverless official site
   * 設定 TTL 相關
     * [Setting DynamoDB TTL with Lambda Python](https://blog.skbali.com/2019/07/setting-dynamodb-ttl-with-lambda-python/)
+  * [DynamoDB TTL as an ad-hoc scheduling mechanism](https://theburningmonk.com/2019/03/dynamodb-ttl-as-an-ad-hoc-scheduling-mechanism/)
 
 ## 修改 serverless stack name 的參考資料
   * [serverless Services doc](https://serverless.com/framework/docs/providers/aws/guide/services/) 
