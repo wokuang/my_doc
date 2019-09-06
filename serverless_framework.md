@@ -228,6 +228,8 @@ def handler(event, context):
   * 設定 TTL 相關
     * [Setting DynamoDB TTL with Lambda Python](https://blog.skbali.com/2019/07/setting-dynamodb-ttl-with-lambda-python/)
   * [DynamoDB TTL as an ad-hoc scheduling mechanism](https://theburningmonk.com/2019/03/dynamodb-ttl-as-an-ad-hoc-scheduling-mechanism/)
+   * [Configure DynamoDB in Serverless](https://serverless-stack.com/chapters/configure-dynamodb-in-serverless.html)
+     *  可以參考用獨立的 yml 檔來設定 resource
 
 ## 修改 serverless stack name 的參考資料
   * [serverless Services doc](https://serverless.com/framework/docs/providers/aws/guide/services/) 
