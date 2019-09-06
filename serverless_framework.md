@@ -105,6 +105,9 @@
 ## 在 api gateway 的 auth 回傳 custom error message
   * [How to throw custom error message from API Gateway custom authorizer](https://stackoverflow.com/questions/47921803/how-to-throw-custom-error-message-from-api-gateway-custom-authorizer)
     * [SeptiyanAndika/serverless-custom-authorizer](https://github.com/SeptiyanAndika/serverless-custom-authorizer) - Example of a serverless service that uses API Gateway custom authorizer to authorize your endpoints, and can custom deny message.
+      * 使用設定 api gateway return template 的方式來進行
+      * 這篇很值得參考
+
 
 ## 設定 custom domain
   * [How to set up a custom domain name for Lambda & API Gateway with Serverless](https://serverless.com/blog/serverless-api-gateway-domain/) 
