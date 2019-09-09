@@ -57,6 +57,11 @@ timestamp is 1557238787
     * [Mako Documentation](https://docs.makotemplates.org/en/latest/)
   * [Html Reports Using Mako Templates](https://doc.odoo.com/6.0/es/developer/3_11_reports/11_3_mako2html_report/)
 
+## validate on python
+  * [Validate Python Function Parameter & Return Types with Decorators](https://www.pythoncentral.io/validate-python-function-parameters-and-return-types-with-decorators/)
+  * [MAKE YOUR PYTHON PRETTIER WITH DECORATORS](https://hackaday.com/2018/08/31/an-introduction-to-decorators-in-python/)
+  * [Validating Function Arguments with Decorators](https://learning-python.com/rangetest.html)
+
 ## python tutorial
   * [【GitHub 上破萬顆星】Python 新手 100 天學習計劃，這次學不會算我輸！](https://buzzorange.com/techorange/2019/05/07/python-100-days/)
   * [jackfrued/Python-100-Days](https://github.com/jackfrued/Python-100-Days) - Python - 100天从新手到大师
