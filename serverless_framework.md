@@ -69,6 +69,7 @@
       * [python blueprint](https://github.com/awslabs/aws-apigateway-lambda-authorizer-blueprints/tree/master/blueprints/python)
   * [The Complete Guide to Custom Authorizers with AWS Lambda and API Gateway](https://www.alexdebrie.com/posts/lambda-custom-authorizers/) ** 進行的概念
   * [API Gateway - Custom Authorizer using Lambda](https://rickhw.github.io/2018/02/04/AWS/Study-Notes-API-Gateway-Custom-Authorizer-using-Lambda/) ** 要看
+  * [The Complete Guide to Custom Authorizers with AWS Lambda and API Gateway](https://www.alexdebrie.com/posts/lambda-custom-authorizers/)
 
 ## lambda versions
   * [Strategies to Manage AWS Lambda Versions](https://www.mode2.com/news/strategies-to-manage-aws-lambda-versions/)
