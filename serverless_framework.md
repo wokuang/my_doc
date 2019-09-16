@@ -103,6 +103,9 @@
   * [在 API Gateway 中處理 Lambda 錯誤](https://docs.aws.amazon.com/zh_tw/apigateway/latest/developerguide/handle-errors-in-lambda-integration.html)
   * [AWS Lambda Function Errors in Python](https://docs.aws.amazon.com/en_us/lambda/latest/dg/python-exceptions.html)
 
+## 在 api gateway 上，設定 white list
+  * [IP Whitelisting with Amazon API Gateway](https://lobster1234.github.io/2018/04/14/amazon-api-gateway-ip-whitelisting/)
+
 ## 在 api gateway 的 auth 回傳 custom error message
   * [How to throw custom error message from API Gateway custom authorizer](https://stackoverflow.com/questions/47921803/how-to-throw-custom-error-message-from-api-gateway-custom-authorizer)
     * [SeptiyanAndika/serverless-custom-authorizer](https://github.com/SeptiyanAndika/serverless-custom-authorizer) - Example of a serverless service that uses API Gateway custom authorizer to authorize your endpoints, and can custom deny message.
