@@ -14,4 +14,6 @@
 ## Go using c/c++ library
   * [Using C Dynamic Libraries In Go Programs](https://www.ardanlabs.com/blog/2013/08/using-c-dynamic-libraries-in-go-programs.html)
   * [How to use C++ in Go?](https://stackoverflow.com/questions/1713214/how-to-use-c-in-go)
+  * [Using C Libraries From Go](https://www.thegoldfish.org/2019/04/using-c-libraries-from-go/)
+  * [Go interlanguage call examples](https://github.com/draffensperger/go-interlang)
 
