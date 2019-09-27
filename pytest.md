@@ -2,8 +2,12 @@
   * [pytest introduction](https://pythontesting.net/framework/pytest/pytest-introduction/)
   * [pytest official site](https://docs.pytest.org/en/latest/)
     * [Full pytest documentation](https://docs.pytest.org/en/latest/contents.html)
+    * [pytest fixtures: explicit, modular, scalable](https://docs.pytest.org/en/latest/fixture.html) ** fixtrue 滿有趣的，多看幾次囉
 
 ## reference
+  * [pytest测试框架中的setup和tearDown](https://python012.github.io/2018/05/08/pytest%E6%B5%8B%E8%AF%95%E6%A1%86%E6%9E%B6%E4%B8%AD%E7%9A%84setup%E5%92%8CtearDown/)
+  * [Pytest 還有他的快樂夥伴](https://www.slideshare.net/excusemejoe/pytest-and-friends)
+  * [pytest ALL THE THINGS](https://www.slideshare.net/VincentBernat/pytest-all-the-things)
   * [What are the best Python unit testing frameworks?](https://www.slant.co/topics/2621/~best-python-unit-testing-frameworks)
   * [What are the top Python frameworks for test automation in 2019?](https://www.quora.com/What-are-the-top-Python-frameworks-for-test-automation-in-2019)
   * [8 Best Python Test Automation Framework](https://www.testbytes.net/blog/python-test-automation-framework/)
