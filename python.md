@@ -68,6 +68,9 @@ timestamp is 1557238787
 ## json and md5 hash
   * [Generate md5 hash of JSON and compare in Python and JavaScript](https://stackoverflow.com/questions/51359943/generate-md5-hash-of-json-and-compare-in-python-and-javascript)
 
+## Jupyter Notebook
+  * [Jupyter Notebook介紹](https://medium.com/python4u/jupyter-notebook%E5%AE%8C%E6%95%B4%E4%BB%8B%E7%B4%B9%E5%8F%8A%E5%AE%89%E8%A3%9D%E8%AA%AA%E6%98%8E-b8fcadba15f)
+
 ## PEP
   * [PEP 8 -- Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/)
 
