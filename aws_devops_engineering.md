@@ -46,10 +46,13 @@ $ aws deploy list-deployments
   * Service Catalog
     * store CloudFormation template
 
+## AWS config
   * AWS Config
     * 紀錄 AWS resource config 的變更歷程
     * [AWS Config](https://aws.amazon.com/tw/config/)
+  * [awslabs/aws-config-rules](https://github.com/awslabs/aws-config-rules)
 
+## Others
   * 跟 security 有關, 建議要開的
     * Cloud Trail
     * Config
