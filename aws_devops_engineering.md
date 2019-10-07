@@ -12,6 +12,10 @@
   * 可以試試 filter 的用法
     * 可用 json 的方式，也可以 key value 的方式
     * 可以用 tag 來 filter
+  * 在大多數會需要等待的 resource，都有提供 wait 的動作
+```
+$ aws ec2 wait xxx
+```
 
 ## New Service
   * EC2 Instance Connect
