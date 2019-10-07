@@ -54,6 +54,12 @@ $ aws deploy list-deployments
     * Cloud Trail
     * Config
 
+  * 存放 secure 的地方
+    * AWS Secrets Manger
+      * 放置 password
+    * Parameter Store
+      * 放 MySQL endpoint
+
 ## New Service
   * EC2 Instance Connect
 
