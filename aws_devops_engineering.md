@@ -107,6 +107,9 @@ $ aws cloudformation create-stack --stack-name DB-tier --template-body file://DB
 ## Code Deploy
   * AppSpec
 
+## Code Star
+  * [AWS CodeStar Access Permissions Reference](https://docs.aws.amazon.com/en_us/codestar/latest/userguide/access-permissions.html)
+
 ## lambda
   * [Announcing improved VPC networking for AWS Lambda functions](https://aws.amazon.com/tw/blogs/compute/announcing-improved-vpc-networking-for-aws-lambda-functions/)
 
