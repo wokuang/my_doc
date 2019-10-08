@@ -113,6 +113,12 @@ $ aws cloudformation create-stack --stack-name DB-tier --template-body file://DB
 ## lambda
   * [Announcing improved VPC networking for AWS Lambda functions](https://aws.amazon.com/tw/blogs/compute/announcing-improved-vpc-networking-for-aws-lambda-functions/)
 
+## Mocking framework
+  * Wiremock
+
+## Fault Tolerance Testing
+  * chaosmonkey
+
 ## New Service
   * EC2 Instance Connect
 
