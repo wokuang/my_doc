@@ -67,6 +67,17 @@ $ aws deploy list-deployments
   * [Walkthrough: Looking Up Amazon Machine Image IDs](https://docs.aws.amazon.com/en_us/AWSCloudFormation/latest/UserGuide/walkthrough-custom-resources-lambda-lookup-amiids.html)
   * Updating Stacks
 
+## Cloud Formation reference document
+  * [Exporting Stack Output Values](https://docs.aws.amazon.com/en_us/AWSCloudFormation/latest/UserGuide/using-cfn-stack-exports.html)
+  * [Fn::ImportValue](https://docs.aws.amazon.com/en_us/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-importvalue.html)
+  * [Fn::Sub](https://docs.aws.amazon.com/en_us/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-sub.html)
+  * [Helper Scripts Reference](https://docs.aws.amazon.com/en_us/AWSCloudFormation/latest/UserGuide/cfn-helper-scripts-reference.html)
+  * [AWS CloudFormation Stack Updates](https://docs.aws.amazon.com/en_us/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks.html)
+  * create stack sample
+```
+$ aws cloudformation create-stack --stack-name DB-tier --template-body file://DB_Tier.yaml
+```
+
 ## AWS config
   * AWS Config
     * 紀錄 AWS resource config 的變更歷程
@@ -74,6 +85,9 @@ $ aws deploy list-deployments
   * [awslabs/aws-config-rules](https://github.com/awslabs/aws-config-rules)
 
 ## AWS CDK
+  * 方便建立 CloudFormation 的工具
+  * [aws/aws-cdk](https://github.com/aws/aws-cdk) The AWS Cloud Development Kit is a framework for defining cloud infrastructure in code https://aws.amazon.com/cdk
+  * [AWS CDK Intro Workshop](https://cdkworkshop.com/)
 
 ## Others
   * 跟 security 有關, 建議要開的
