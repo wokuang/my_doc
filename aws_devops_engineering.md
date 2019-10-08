@@ -59,6 +59,14 @@ $ aws deploy list-deployments
   * [AWS Tagging Best Practices – The Ultimate Guide](https://www.metricly.com/aws-tagging-best-practices/)
   * [What Are Best Practices for Tagging AWS Resources?](https://cloudacademy.com/blog/what-are-best-practices-for-tagging-aws-resources/)
 
+## Cloud Formation
+  * CreationPolicy Attribute
+    * 常運用在 EC2 provision 時，當 EC2 再跑 user data 時，會需要時間
+  * Custom Resources
+    * 可以呼叫 lambda 程式
+  * [Walkthrough: Looking Up Amazon Machine Image IDs](https://docs.aws.amazon.com/en_us/AWSCloudFormation/latest/UserGuide/walkthrough-custom-resources-lambda-lookup-amiids.html)
+  * Updating Stacks
+
 ## AWS config
   * AWS Config
     * 紀錄 AWS resource config 的變更歷程
