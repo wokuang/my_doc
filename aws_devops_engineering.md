@@ -46,6 +46,19 @@ $ aws deploy list-deployments
   * Service Catalog
     * store CloudFormation template
 
+## IAM
+  * Assume Role
+  * ABAC
+    * [What Is ABAC for AWS?](https://docs.amazonaws.cn/en_us/IAM/latest/UserGuide/introduction_attribute-based-access-control.html)
+    * [Simplify granting access to your AWS resources by using tags on AWS IAM users and roles](https://aws.amazon.com/tw/blogs/security/simplify-granting-access-to-your-aws-resources-by-using-tags-on-aws-iam-users-and-roles/)
+    * [Working backward: From IAM policies and principal tags to standardized names and tags for your AWS resources](https://aws.amazon.com/tw/blogs/security/working-backward-from-iam-policies-and-principal-tags-to-standardized-names-and-tags-for-your-aws-resources/)
+
+## Tag
+  * 可以想想 Tag 的設計
+  * [AWS Tagging Strategies](https://aws.amazon.com/tw/answers/account-management/aws-tagging-strategies/)
+  * [AWS Tagging Best Practices – The Ultimate Guide](https://www.metricly.com/aws-tagging-best-practices/)
+  * [What Are Best Practices for Tagging AWS Resources?](https://cloudacademy.com/blog/what-are-best-practices-for-tagging-aws-resources/)
+
 ## AWS config
   * AWS Config
     * 紀錄 AWS resource config 的變更歷程
