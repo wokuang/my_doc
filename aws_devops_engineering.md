@@ -127,6 +127,10 @@ echo $ow_privkey | sudo tee /etc/chef/client.pem
 sudo chmod 644 /etc/chef/client.pem
 ```
 
+## AWS System Manager
+  * Documents
+    * 可用這個來修復 ssh server
+
 ## New Service
   * EC2 Instance Connect
 
