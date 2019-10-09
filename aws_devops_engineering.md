@@ -119,6 +119,14 @@ $ aws cloudformation create-stack --stack-name DB-tier --template-body file://DB
 ## Fault Tolerance Testing
   * chaosmonkey
 
+## AWS OpsWorks
+  * 寫 client pem 的方式
+```
+sudo mkdir /etc/chef
+echo $ow_privkey | sudo tee /etc/chef/client.pem
+sudo chmod 644 /etc/chef/client.pem
+```
+
 ## New Service
   * EC2 Instance Connect
 
