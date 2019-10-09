@@ -133,10 +133,57 @@ sudo chmod 644 /etc/chef/client.pem
 
 ## ECR
   * 開始有支援 image life-cycle 功能
+  * 進行 ECR login command
+```
+$ aws ecr get-login --no-include-email | /bin/bash
+```
 
 ## roadmap
   * [aws/containers-roadmap](https://github.com/aws/containers-roadmap)
   * [containers-roadmap project](https://github.com/aws/containers-roadmap/projects/1)
+
+## docker command dictionary
+```
+# Get a local Shell of container
+      docker run -i -t --entrypoint /bin/bash imageID
+# Create image using this directory's Dockerfile
+      docker build -t friendlyname .
+# Run "friendlyname" mapping port 4000 to 80
+      docker run -p 4000:80 friendlyname
+# Same thing, but in detached mode
+      docker run -d -p 4000:80 friendlyname
+# See a list of all running containers
+     docker ps
+# Gracefully stop the specified container
+     docker stop <hash>
+# See a list of all containers, even the ones not running
+     docker ps -a
+# Force shutdown of the specified container
+     docker kill <hash>
+ # Remove the specified container from this machine
+     docker rm <hash>
+# Remove all containers from this machine
+     docker rm $(docker ps -a -q)
+# Show all images on this machine
+     docker images -a
+# Remove the specified image from this machine
+     docker rmi <imagename>
+# Remove all images from this machine
+     docker rmi $(docker images -q)
+# Log in this CLI session using your Docker credentials
+     docker login
+# Tag <image> for upload to registry
+     docker tag <image> username/repository:tag
+# Upload tagged image to registry
+     docker push username/repository:tag
+# Run image from a registry
+     docker run username/repository:tag
+```
+
+## Training
+  * [self-paced-labs](https://aws.amazon.com/tw/training/self-paced-labs/)
+  * [Training and Certification 的學習路徑](https://aws.amazon.com/tw/training/learning-paths/)
+  * [AWS Certification](https://aws.amazon.com/certification/?nav=tc&loc=3)
 
 ## New Service
   * EC2 Instance Connect
