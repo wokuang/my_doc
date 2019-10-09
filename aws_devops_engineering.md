@@ -131,6 +131,13 @@ sudo chmod 644 /etc/chef/client.pem
   * Documents
     * 可用這個來修復 ssh server
 
+## ECR
+  * 開始有支援 image life-cycle 功能
+
+## roadmap
+  * [aws/containers-roadmap](https://github.com/aws/containers-roadmap)
+  * [containers-roadmap project](https://github.com/aws/containers-roadmap/projects/1)
+
 ## New Service
   * EC2 Instance Connect
 
