@@ -71,6 +71,11 @@ timestamp is 1557238787
 ## Jupyter Notebook
   * [Jupyter Notebook介紹](https://medium.com/python4u/jupyter-notebook%E5%AE%8C%E6%95%B4%E4%BB%8B%E7%B4%B9%E5%8F%8A%E5%AE%89%E8%A3%9D%E8%AA%AA%E6%98%8E-b8fcadba15f)
 
+## string format
+  * [PEP 498 -- Literal String Interpolation](https://www.python.org/dev/peps/pep-0498/)
+  * [Python 3's f-Strings: An Improved String Formatting Syntax (Guide)](https://realpython.com/python-f-strings/)
+  * [f-string Formatting in Python](https://www.datacamp.com/community/tutorials/f-string-formatting-in-python)
+
 ## PEP
   * [PEP 8 -- Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/)
 
