@@ -300,6 +300,9 @@ def handler(event, context):
 ## anti-patterns
   * [THE SILENCE OF THE LAMBDAS – 5 ANTI-PATTERNS FOR AWS LAMBDA](https://www.3pillarglobal.com/insights/silence-lambdas-5-anti-patterns-aws-lambda)
 
+## serverless and terraform
+  * [Making Terraform and Serverless framework work together](https://medium.com/dazn-tech/making-terraform-and-serverless-framework-work-together-3fd3d173f33f)
+
 ## 一些進階的有趣主題
   * [AWS re:Invent 2017: Become a Serverless Black Belt: Optimizing Your Serverless Appli (SRV401)](https://www.youtube.com/watch?v=oQFORsso2go&feature=youtu.be&t=8m5s)
   * [Getting started with AWS Lambda Layers for Python](https://medium.com/@adhorn/getting-started-with-aws-lambda-layers-for-python-6e10b1f9a5d)
