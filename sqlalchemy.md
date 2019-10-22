@@ -40,6 +40,9 @@
   * [SQLAlchemy pre-ping 機制](https://myapollo.com.tw/2019/06/05/sqlalchemy-pre-ping/)
   * [SQLAlchemy 的连接池机制](https://sanyuesha.com/2019/01/02/sqlalchemy-pool-mechanism/)
 
+## sqlalchemy query
+  * [SQLAlchemy - filter vs filter_by](https://myapollo.com.tw/2018/11/24/sqlalchemy-filter-vs-filter-by/)
+
 ## document
   * [SQLAlchemy Basics Tutorial](https://leportella.com/english/2019/01/10/sqlalchemy-basics-tutorial.html) ** 先看看這份
   * [SQLAlchemy - from Python Cheatsheet](https://www.pythonsheets.com/notes/python-sqlalchemy.html) ** 這份也很好
