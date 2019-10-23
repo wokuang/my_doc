@@ -2,9 +2,17 @@
 
 
 ## 可嘗試的方向
+  * [Making Terraform and Serverless framework work together](https://medium.com/dazn-tech/making-terraform-and-serverless-framework-work-together-3fd3d173f33f)
   * [Serverless Applications with AWS Lambda and API Gateway](https://learn.hashicorp.com/terraform/aws/lambda-api-gateway)
 
 ## tutorial
+  * [A Comprehensive Guide to Terraform](https://blog.gruntwork.io/a-comprehensive-guide-to-terraform-b3d32832baca)
+  * [An Introduction to Terraform](https://blog.gruntwork.io/an-introduction-to-terraform-f17df9c6d180)
+
+## S3 bucket
+  * [Add S3 bucket using Terraform (example)](http://notes.webutvikling.org/add-s3-bucket-using-terraform/)
+
+## reference
   * [Getting Started - offical](https://www.terraform.io/intro/getting-started/install.html) ** 先由這篇來試試  
   * [AWS Lambda Deployment using Terraform](https://medium.com/build-acl/aws-lambda-deployment-with-terraform-24d36cc86533) **
   * [Introduction to AWS With Terraform](https://hackernoon.com/introduction-to-aws-with-terraform-7a8daf261dc0)
