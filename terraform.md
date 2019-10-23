@@ -1,6 +1,5 @@
 # List Terraform resources
 
-
 ## 可嘗試的方向
   * [Making Terraform and Serverless framework work together](https://medium.com/dazn-tech/making-terraform-and-serverless-framework-work-together-3fd3d173f33f)
   * [Serverless Applications with AWS Lambda and API Gateway](https://learn.hashicorp.com/terraform/aws/lambda-api-gateway)
@@ -8,6 +7,13 @@
 ## tutorial
   * [A Comprehensive Guide to Terraform](https://blog.gruntwork.io/a-comprehensive-guide-to-terraform-b3d32832baca)
   * [An Introduction to Terraform](https://blog.gruntwork.io/an-introduction-to-terraform-f17df9c6d180)
+  * [terraform/website/intro/](https://github.com/hashicorp/terraform/tree/master/website/intro) official getting started
+    * [Introduction to Infrastructure as Code with Terraform](https://learn.hashicorp.com/terraform/getting-started/intro)
+
+## module
+  * The Terraform Registry includes a directory of ready-to-use modules for various common purposes, which can serve as larger building-blocks for your infrastructure.
+  * [Terraform Registry](https://registry.terraform.io/)
+  * [Creating Modules](https://www.terraform.io/docs/modules/index.html) doc
 
 ## S3 bucket
   * [Add S3 bucket using Terraform (example)](http://notes.webutvikling.org/add-s3-bucket-using-terraform/)
