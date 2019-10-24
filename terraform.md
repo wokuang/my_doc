@@ -18,6 +18,10 @@
 ## S3 bucket
   * [Add S3 bucket using Terraform (example)](http://notes.webutvikling.org/add-s3-bucket-using-terraform/)
 
+## ECS
+  * [Deploying Containers on Amazon’s ECS using Fargate and Terraform: Part 1](https://medium.com/@bradford_hamilton/deploying-containers-on-amazons-ecs-using-fargate-and-terraform-part-1-a5ab1f79cb21)
+  * [Deploying Containers on Amazon’s ECS using Fargate and Terraform: Part 2](https://medium.com/@bradford_hamilton/deploying-containers-on-amazons-ecs-using-fargate-and-terraform-part-2-2e6f6a3a957f)
+
 ## reference
   * [Getting Started - offical](https://www.terraform.io/intro/getting-started/install.html) ** 先由這篇來試試  
   * [AWS Lambda Deployment using Terraform](https://medium.com/build-acl/aws-lambda-deployment-with-terraform-24d36cc86533) **
