@@ -42,3 +42,8 @@ $ source ~/bin/setPowerAws.sh
 ## 想想 log aggregation 的方式
   * [How to implement log aggregation for AWS Lambda](https://www.freecodecamp.org/news/how-to-implement-log-aggregation-for-aws-lambda-ca714bf02f48/)
 
+## 一些操作上的範例
+```
+取得非 200 的request
+$ awslogs get /aws/api-gateway/cloud-update-v3-stg --start='2d ago' --end='1h ago' --query 'events[*].message' | grep -v "status: 200"
+```
