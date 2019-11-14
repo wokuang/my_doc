@@ -14,3 +14,16 @@
 
   * console command on kibana
     * [Nodes info API](https://www.elastic.co/guide/en/elasticsearch/reference/current/cluster-nodes-info.html#cluster-nodes-info) 
+
+## 將 mysql 轉換成 json
+  * [sethblack/mysql-to-json](https://github.com/sethblack/mysql-to-json) Connects to a MySQL database and exports selected data to JSON.
+    * pre-install pkg
+```
+$ sudo yum install mysql-devel
+$ sudo yum list | grep python3 | grep dev
+$ sudo yum install python36-devel
+```
+    * example
+```
+$ mysql-to-json -e 'SELECT * FROM information_schema.tables' > tables.json
+```
