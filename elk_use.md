@@ -11,3 +11,6 @@
   * [Complete Guide to Elasticsearch](https://www.udemy.com/course/elasticsearch-complete-guide/)
     * [codingexplained/complete-guide-to-elasticsearch](https://github.com/codingexplained/complete-guide-to-elasticsearch)
     * [kibana demo](https://tinyurl.com/ya5p2234)
+
+  * console command on kibana
+    * [Nodes info API](https://www.elastic.co/guide/en/elasticsearch/reference/current/cluster-nodes-info.html#cluster-nodes-info) 
