@@ -27,3 +27,5 @@ $ sudo yum install python36-devel
 ```
 $ mysql-to-json -e 'SELECT * FROM information_schema.tables' > tables.json
 ```
+  * 用自己改的一版來由 sql result to elasticsearch bulk json
+    * [wokuang/mysql-to-json](https://github.com/wokuang/mysql-to-json)
