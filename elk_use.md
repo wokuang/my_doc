@@ -16,6 +16,7 @@ aws es describe-elasticsearch-domain --domain bruce
 ## kibana 說明文件
   * [Kibana Guide 7.4 » Getting Started](https://www.elastic.co/guide/en/kibana/current/getting-started.html)
     * 由這份開始來試試 kibana
+  * [Build your own dashboard](https://www.elastic.co/guide/en/kibana/current/tutorial-build-dashboard.html#tutorial-build-dashboard) - 這份滿好的，由匯入 data 開始，到建立 dashboard **
 
 ## insert elasticSearch index
   * [How to use Python helpers to bulk load data into an Elasticsearch index](https://kb.objectrocket.com/elasticsearch/how-to-use-python-helpers-to-bulk-load-data-into-an-elasticsearch-index)
