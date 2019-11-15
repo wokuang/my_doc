@@ -4,16 +4,18 @@
   * [Amazon Elasticsearch Service 入門](https://docs.aws.amazon.com/zh_tw/elasticsearch-service/latest/developerguide/es-gsg.html) - 建立一個簡單的 ES 來測試
     * ## 建立的 command
 ```
-aws es create-elasticsearch-domain --domain-name bruce --elasticsearch-version 7.1 --elasticsearch-cluster-config InstanceType=t2.small.elasticsearch,InstanceCount=1 --ebs-options EBSEnabled=true,VolumeType=standard,VolumeSize=10 --access-policies '{"Version":"2012-10-17","Statement":[{"Effect":"Allow","Principal":{"AWS":"*"},"Action":["es:*"],"Condition":{"IpAddress":{"aws:SourceIp":["60.251.40.253,118.163.170.73,35.165.85.252"]}}}]}'
+aws es create-elasticsearch-domain --domain-name bruce --elasticsearch-version 7.1 --elasticsearch-cluster-config InstanceType=t2.small.elasticsearch,InstanceCount=1 --ebs-options EBSEnabled=true,VolumeType=standard,VolumeSize=10 --access-policies '{"Version":"2012-10-17","Statement":[{"Effect":"Allow","Principal":{"AWS":"*"},"Action":["es:*"],"Condition":{"IpAddress":{"aws:SourceIp":["60.251.40.253","118.163.170.73","35.165.85.252"]}}}]}'
 ```
     * 查詢 es domain command
 ```
 aws es describe-elasticsearch-domain --domain bruce
 ```
+  * [簽署 HTTP 請求到 Amazon Elasticsearch Service](https://docs.aws.amazon.com/zh_tw/elasticsearch-service/latest/developerguide/es-request-signing.html#es-request-signing-python) - 將資料寫入到 elastic search 中
+  * [將串流資料載入到 Amazon Elasticsearch Service](https://docs.aws.amazon.com/zh_tw/elasticsearch-service/latest/developerguide/es-aws-integrations.html#es-aws-integrations-cloudwatch-es)
 
-## 在 AWS EC2 上安裝 docker
-  * [Docker and Docker-Compose Setup on AWS EC2 Instance](https://medium.com/@khandelwal12nidhi/docker-setup-on-aws-ec2-instance-c670ff3d5f1b)
-  * [How to install Docker on AWS EC2 instance with AMI (CE/EE Update)](https://serverfault.com/questions/836198/how-to-install-docker-on-aws-ec2-instance-with-ami-ce-ee-update)
+## kibana 說明文件
+  * [Kibana Guide 7.4 » Getting Started](https://www.elastic.co/guide/en/kibana/current/getting-started.html)
+    * 由這份開始來試試 kibana
 
 ## insert elasticSearch index
   * [How to use Python helpers to bulk load data into an Elasticsearch index](https://kb.objectrocket.com/elasticsearch/how-to-use-python-helpers-to-bulk-load-data-into-an-elasticsearch-index)
@@ -44,3 +46,7 @@ $ mysql-to-json -e 'SELECT * FROM information_schema.tables' > tables.json
 ```
   * 用自己改的一版來由 sql result to elasticsearch bulk json
     * [wokuang/mysql-to-json](https://github.com/wokuang/mysql-to-json)
+
+## 在 AWS EC2 上安裝 docker - 目前改用 AWS 的 elasticsearch service 來玩
+  * [Docker and Docker-Compose Setup on AWS EC2 Instance](https://medium.com/@khandelwal12nidhi/docker-setup-on-aws-ec2-instance-c670ff3d5f1b)
+  * [How to install Docker on AWS EC2 instance with AMI (CE/EE Update)](https://serverfault.com/questions/836198/how-to-install-docker-on-aws-ec2-instance-with-ami-ce-ee-update)
