@@ -7,6 +7,13 @@
   * [Docker and Docker-Compose Setup on AWS EC2 Instance](https://medium.com/@khandelwal12nidhi/docker-setup-on-aws-ec2-instance-c670ff3d5f1b)
   * [How to install Docker on AWS EC2 instance with AMI (CE/EE Update)](https://serverfault.com/questions/836198/how-to-install-docker-on-aws-ec2-instance-with-ami-ce-ee-update)
 
+## insert elasticSearch index
+  * [How to use Python helpers to bulk load data into an Elasticsearch index](https://kb.objectrocket.com/elasticsearch/how-to-use-python-helpers-to-bulk-load-data-into-an-elasticsearch-index)
+  * [How to use Bulk API to store the keywords in ES by using Python](https://stackoverflow.com/questions/20288770/how-to-use-bulk-api-to-store-the-keywords-in-es-by-using-python)
+  * 要加入 timestamp 的方式
+    * [Add Timestamp to ElasticSearch with Elasticsearch-py using Bulk-API](https://stackoverflow.com/questions/31994187/add-timestamp-to-elasticsearch-with-elasticsearch-py-using-bulk-api)
+    * [Bulk APIedit](https://www.elastic.co/guide/en/elasticsearch/reference/1.4/docs-bulk.html)
+
 ## ELK course
   * [Complete Guide to Elasticsearch](https://www.udemy.com/course/elasticsearch-complete-guide/)
     * [codingexplained/complete-guide-to-elasticsearch](https://github.com/codingexplained/complete-guide-to-elasticsearch)
