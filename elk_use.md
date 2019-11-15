@@ -1,7 +1,15 @@
 # List ELK information
 
 ## 使用 AWS Elasticsearch Service
-  * [Amazon Elasticsearch Service 入門](https://docs.aws.amazon.com/zh_tw/elasticsearch-service/latest/developerguide/es-gsg.html)
+  * [Amazon Elasticsearch Service 入門](https://docs.aws.amazon.com/zh_tw/elasticsearch-service/latest/developerguide/es-gsg.html) - 建立一個簡單的 ES 來測試
+    * ## 建立的 command
+```
+aws es create-elasticsearch-domain --domain-name bruce --elasticsearch-version 7.1 --elasticsearch-cluster-config InstanceType=t2.small.elasticsearch,InstanceCount=1 --ebs-options EBSEnabled=true,VolumeType=standard,VolumeSize=10 --access-policies '{"Version":"2012-10-17","Statement":[{"Effect":"Allow","Principal":{"AWS":"*"},"Action":["es:*"],"Condition":{"IpAddress":{"aws:SourceIp":["60.251.40.253,118.163.170.73,35.165.85.252"]}}}]}'
+```
+    * 查詢 es domain command
+```
+aws es describe-elasticsearch-domain --domain bruce
+```
 
 ## 在 AWS EC2 上安裝 docker
   * [Docker and Docker-Compose Setup on AWS EC2 Instance](https://medium.com/@khandelwal12nidhi/docker-setup-on-aws-ec2-instance-c670ff3d5f1b)
