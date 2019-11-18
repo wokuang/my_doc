@@ -12,6 +12,38 @@ aws es describe-elasticsearch-domain --domain bruce
 ```
   * [簽署 HTTP 請求到 Amazon Elasticsearch Service](https://docs.aws.amazon.com/zh_tw/elasticsearch-service/latest/developerguide/es-request-signing.html#es-request-signing-python) - 將資料寫入到 elastic search 中
   * [將串流資料載入到 Amazon Elasticsearch Service](https://docs.aws.amazon.com/zh_tw/elasticsearch-service/latest/developerguide/es-aws-integrations.html#es-aws-integrations-cloudwatch-es)
+    * [Streaming CloudWatch Logs Data to Amazon Elasticsearch Service](https://docs.aws.amazon.com/en_us/AmazonCloudWatch/latest/logs/CWL_ES_Stream.html)
+
+## 將 cloudwatch 資料，餵到 ES 的設定
+  * [Streaming CloudWatch Logs Data to Amazon Elasticsearch Service](https://docs.aws.amazon.com/en_us/AmazonCloudWatch/latest/logs/CWL_ES_Stream.html)
+  * [Function Execution Role for Service Principals](https://docs.aws.amazon.com/en_us/AmazonCloudFront/latest/DeveloperGuide/lambda-edge-permissions.html#lambda-edge-permissions-function-execution)
+```
+{
+   "Version": "2012-10-17",
+   "Statement": [
+      {
+         "Effect": "Allow",
+         "Principal": {
+            "Service": ["lambda.amazonaws.com"]
+         },
+         "Action": "sts:AssumeRole"
+      }
+   ]
+}
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Action": [
+                "es:*"
+            ],
+            "Effect": "Allow",
+            "Resource": "arn:aws:es:region:account-id:domain/target-domain-name/*"
+        }
+    ]
+}
+```
 
 ## kibana 說明文件
   * [Kibana Guide 7.4 » Getting Started](https://www.elastic.co/guide/en/kibana/current/getting-started.html)
