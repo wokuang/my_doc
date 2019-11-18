@@ -57,6 +57,10 @@ aws es describe-elasticsearch-domain --domain bruce
     * [Add Timestamp to ElasticSearch with Elasticsearch-py using Bulk-API](https://stackoverflow.com/questions/31994187/add-timestamp-to-elasticsearch-with-elasticsearch-py-using-bulk-api)
     * [Bulk APIedit](https://www.elastic.co/guide/en/elasticsearch/reference/1.4/docs-bulk.html)
 
+## Amazon Elasticsearch Service Slow Logs
+  * [Analyzing Amazon Elasticsearch Service Slow Logs Using Amazon CloudWatch Logs Streaming and Kibana](https://aws.amazon.com/tw/blogs/database/analyzing-amazon-elasticsearch-service-slow-logs-using-amazon-cloudwatch-logs-streaming-and-kibana/) ** 這篇值得一讀
+  * [Viewing Amazon Elasticsearch Service Slow Logs](https://aws.amazon.com/tw/blogs/database/viewing-amazon-elasticsearch-service-slow-logs/)
+
 ## ELK course
   * [Complete Guide to Elasticsearch](https://www.udemy.com/course/elasticsearch-complete-guide/)
     * [codingexplained/complete-guide-to-elasticsearch](https://github.com/codingexplained/complete-guide-to-elasticsearch)
