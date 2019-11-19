@@ -38,6 +38,9 @@ aws es describe-elasticsearch-domain --domain bruce
   * [Streaming AWS CloudWatch Logs to your own ELK logging solution](https://medium.com/@sohit_kumar/streaming-aws-cloudwatch-logs-to-your-own-elk-logging-solution-2bbd32f25100)
   * [daniel-cottone/serverless-es-logs](https://github.com/daniel-cottone/serverless-es-logs) - A Serverless plugin to transport logs to ElasticSearch
 
+## Query String
+  * [Elasticsearch/Kibana Queries - In Depth Tutorial](https://www.timroes.de/elasticsearch-kibana-queries-in-depth-tutorial)
+
 ## kibana 說明文件
   * [Kibana Guide 7.4 » Getting Started](https://www.elastic.co/guide/en/kibana/current/getting-started.html)
     * 由這份開始來試試 kibana
