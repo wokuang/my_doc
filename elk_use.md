@@ -80,6 +80,35 @@ $ mysql-to-json -e 'SELECT * FROM information_schema.tables' > tables.json
   * 用自己改的一版來由 sql result to elasticsearch bulk json
     * [wokuang/mysql-to-json](https://github.com/wokuang/mysql-to-json)
 
+## 建立 date format 的方式
+  * 先建立 index, then 再用 mapping 的方式，先設定好 date format
+  * 範例
+```
+# 建立 index
+PUT /odc
+
+# 設定 index mapping
+PUT /odc/_mapping
+{
+    "properties": {
+      "updated_at": {
+        "type":   "date",
+        "format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis"
+      },
+      "created_at": {
+        "type":   "date",
+        "format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis"
+      }
+    }
+}
+```
+
+## 關於 index 操作的一些文件
+  * [Index APIs](https://www.elastic.co/guide/en/elasticsearch/reference/current/indices.html) ** 重要
+    * [Create index](https://www.elastic.co/guide/en/elasticsearch/reference/current/indices-create-index.html)
+    * [Delete index](https://www.elastic.co/guide/en/elasticsearch/reference/current/indices-delete-index.html)
+    * [Put mapping index](https://www.elastic.co/guide/en/elasticsearch/reference/current/indices-put-mapping.html)
+
 ## 在 AWS EC2 上安裝 docker - 目前改用 AWS 的 elasticsearch service 來玩
   * [Docker and Docker-Compose Setup on AWS EC2 Instance](https://medium.com/@khandelwal12nidhi/docker-setup-on-aws-ec2-instance-c670ff3d5f1b)
   * [How to install Docker on AWS EC2 instance with AMI (CE/EE Update)](https://serverfault.com/questions/836198/how-to-install-docker-on-aws-ec2-instance-with-ami-ce-ee-update)
