@@ -109,6 +109,26 @@ PUT /odc/_mapping
     * [Delete index](https://www.elastic.co/guide/en/elasticsearch/reference/current/indices-delete-index.html)
     * [Put mapping index](https://www.elastic.co/guide/en/elasticsearch/reference/current/indices-put-mapping.html)
 
+## 一些常用到的 kibana console command
+  * query index
+```
+GET /_cat/indices?v
+```
+  * 取得 index 資料
+```
+GET /index
+GET /odc
+```
+  * 取得 index stats
+```
+GET /_stats
+```
+
 ## 在 AWS EC2 上安裝 docker - 目前改用 AWS 的 elasticsearch service 來玩
   * [Docker and Docker-Compose Setup on AWS EC2 Instance](https://medium.com/@khandelwal12nidhi/docker-setup-on-aws-ec2-instance-c670ff3d5f1b)
   * [How to install Docker on AWS EC2 instance with AMI (CE/EE Update)](https://serverfault.com/questions/836198/how-to-install-docker-on-aws-ec2-instance-with-ami-ce-ee-update)
+
+## reference
+  * [Elasticsearch Tutorial](https://www.tutorialspoint.com/elasticsearch/elasticsearch_quick_guide.htm)
+  * [Elasticsearch - Query DSL](https://www.tutorialspoint.com/elasticsearch/elasticsearch_query_dsl.htm)
+
