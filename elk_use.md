@@ -141,4 +141,6 @@ GET /_stats
 ## reference
   * [Elasticsearch Tutorial](https://www.tutorialspoint.com/elasticsearch/elasticsearch_quick_guide.htm)
   * [Elasticsearch - Query DSL](https://www.tutorialspoint.com/elasticsearch/elasticsearch_query_dsl.htm)
+  * [Elasticsearch Demo](https://jtran21.gitbooks.io/elasticsearch/content/index.html)
+  * [AWS Centralized Logging Guide](https://coralogix.com/log-analytics-blog/aws-centralized-logging-guide/)
 
