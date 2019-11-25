@@ -103,6 +103,16 @@ PUT /odc/_mapping
 }
 ```
 
+## 用 logstash 傳資料到，在 AWS ES 上
+  * [Setup a Logstash Server for Amazon Elasticsearch Service and Auth With IAM](https://blog.ruanbekker.com/blog/2019/06/04/setup-a-logstash-server-for-amazon-elasticsearch-service-and-auth-with-iam/) ** 這篇要看看
+  * [Logstash tutorial: A quick start guide](https://aws.amazon.com/tw/elasticsearch-service/resources/articles/logstash-tutorial/) ** 這篇要看看
+  * [Kibana and Logstash](https://docs.aws.amazon.com/en_us/elasticsearch-service/latest/developerguide/es-kibana.html)
+  * [How do I integrate Logstash with Amazon's Elasticsearch Service (ES)?](https://www.oreilly.com/learning/how_do_i_integrate_logstash_with_amazons_elasticsearch_service_es)
+  * [awslabs/logstash-output-amazon_es](https://github.com/awslabs/logstash-output-amazon_es)
+  * plugin 安裝
+```
+$ logstash-plugin install logstash-output-amazon_es
+```
 ## 關於 index 操作的一些文件
   * [Index APIs](https://www.elastic.co/guide/en/elasticsearch/reference/current/indices.html) ** 重要
     * [Create index](https://www.elastic.co/guide/en/elasticsearch/reference/current/indices-create-index.html)
