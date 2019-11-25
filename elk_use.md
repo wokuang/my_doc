@@ -134,6 +134,14 @@ GET /odc
 GET /_stats
 ```
 
+## geographical location
+  * [Kibana GeoIP example: How to index geographical location of IP addresses into Elasticsearch](https://www.dataneb.com/post/kibana-geoip-example-how-to-index-geographical-location-of-ip-addresses-to-elasticsearch)
+  * [GeoIP in the Elastic Stack](https://www.elastic.co/cn/blog/geoip-in-the-elastic-stack)
+  * [How To Map User Location with GeoIP and ELK (Elasticsearch, Logstash, and Kibana)](https://www.digitalocean.com/community/tutorials/how-to-map-user-location-with-geoip-and-elk-elasticsearch-logstash-and-kibana)
+
+## 使用 serverless 將資料放到 ES 中 
+  * [miztiik/serverless-s3-to-elasticsearch-ingester](https://github.com/miztiik/serverless-s3-to-elasticsearch-ingester/blob/master/s3-to-es.py)
+
 ## 在 AWS EC2 上安裝 docker - 目前改用 AWS 的 elasticsearch service 來玩
   * [Docker and Docker-Compose Setup on AWS EC2 Instance](https://medium.com/@khandelwal12nidhi/docker-setup-on-aws-ec2-instance-c670ff3d5f1b)
   * [How to install Docker on AWS EC2 instance with AMI (CE/EE Update)](https://serverfault.com/questions/836198/how-to-install-docker-on-aws-ec2-instance-with-ami-ce-ee-update)
