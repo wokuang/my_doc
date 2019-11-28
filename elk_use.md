@@ -16,7 +16,9 @@ aws es describe-elasticsearch-domain --domain bruce
 
 ## 將 cloudwatch 資料，餵到 ES 的設定
   * [Streaming CloudWatch Logs Data to Amazon Elasticsearch Service](https://docs.aws.amazon.com/en_us/AmazonCloudWatch/latest/logs/CWL_ES_Stream.html)
+  * [將 CloudWatch Logs 資料串流至 Amazon Elasticsearch Service](https://docs.aws.amazon.com/zh_tw/AmazonCloudWatch/latest/logs/CWL_ES_Stream.html)
   * [Function Execution Role for Service Principals](https://docs.aws.amazon.com/en_us/AmazonCloudFront/latest/DeveloperGuide/lambda-edge-permissions.html#lambda-edge-permissions-function-execution)
+  * [AWS - subscribe multiple lambda logs to one elasticsearch service](https://stackoverflow.com/questions/49045483/aws-subscribe-multiple-lambda-logs-to-one-elasticsearch-service/49157526) 設定多個 cloudWatch 到 aws es 時，會出現 error, 解法如文章所述
   * [Why can't create principal on aws iam for datadog?](https://www.reddit.com/r/aws/comments/8q7opj/why_cant_create_principal_on_aws_iam_for_datadog/) Principal 的設定是在建立 role 時，建立的
 ```
 {
