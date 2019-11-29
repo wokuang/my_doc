@@ -148,8 +148,15 @@ GET /_stats
   * [Docker and Docker-Compose Setup on AWS EC2 Instance](https://medium.com/@khandelwal12nidhi/docker-setup-on-aws-ec2-instance-c670ff3d5f1b)
   * [How to install Docker on AWS EC2 instance with AMI (CE/EE Update)](https://serverfault.com/questions/836198/how-to-install-docker-on-aws-ec2-instance-with-ami-ce-ee-update)
 
+## 收集 AWS 使用資料
+  * [Metricbeat overview](https://www.elastic.co/guide/en/beats/metricbeat/current/metricbeat-overview.html) 使用 metricbeat 來收集
+
 ## 中文說明
   * [Elasticsearch权威指南（中文版）](https://github.com/elasticsearch-cn/elasticsearch-definitive-guide) - 有空來看看
+
+## public cloud 的比較
+  * [AWS Elasticsearch Service 对比：Amazon 和 Elastic](https://www.elastic.co/cn/aws-elasticsearch-service)
+  * [Elasticsearch Service on Elastic Cloud](https://aws.amazon.com/marketplace/pp/Elasticsearch-Inc-Elasticsearch-Service-on-Elastic/B01N6YCISK) AWS marketplace
 
 ## reference
   * [Elasticsearch Tutorial](https://www.tutorialspoint.com/elasticsearch/elasticsearch_quick_guide.htm)
