@@ -158,6 +158,9 @@ GET /_stats
   * [AWS Elasticsearch Service 对比：Amazon 和 Elastic](https://www.elastic.co/cn/aws-elasticsearch-service)
   * [Elasticsearch Service on Elastic Cloud](https://aws.amazon.com/marketplace/pp/Elasticsearch-Inc-Elasticsearch-Service-on-Elastic/B01N6YCISK) AWS marketplace
 
+## monitoring
+  * [Monitoring a critical part of your infrastructure: Amazon Elasticsearch domain](https://cloudonaut.io/monitoring-a-critical-part-of-your-infrastructure-amazon-elasticsearch-domain/)
+
 ## reference
   * [Elasticsearch Tutorial](https://www.tutorialspoint.com/elasticsearch/elasticsearch_quick_guide.htm)
   * [Elasticsearch - Query DSL](https://www.tutorialspoint.com/elasticsearch/elasticsearch_query_dsl.htm)
