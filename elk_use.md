@@ -158,8 +158,14 @@ GET /_stats
   * [AWS Elasticsearch Service 对比：Amazon 和 Elastic](https://www.elastic.co/cn/aws-elasticsearch-service)
   * [Elasticsearch Service on Elastic Cloud](https://aws.amazon.com/marketplace/pp/Elasticsearch-Inc-Elasticsearch-Service-on-Elastic/B01N6YCISK) AWS marketplace
 
+## 將資料 feed 到 elastic search 的方式 
+  * [jrbeilke/logstash-lambda](https://github.com/jrbeilke/logstash-lambda)
+    * AWS lambda function to ship ELB, S3, CloudTrail, VPC, CloudFront logs to Logstash
+  * [Functionbeat: Serverless Ingestion for Elasticsearch](https://www.elastic.co/cn/blog/functionbeat-serverless-ingestion-for-elasticsearch)
+
 ## monitoring
   * [Monitoring a critical part of your infrastructure: Amazon Elasticsearch domain](https://cloudonaut.io/monitoring-a-critical-part-of-your-infrastructure-amazon-elasticsearch-domain/)
+  * [Monitoring AWS Lambda Invocations with the ELK Stack](https://logz.io/blog/lambda-elk/)
 
 ## reference
   * [Elasticsearch Tutorial](https://www.tutorialspoint.com/elasticsearch/elasticsearch_quick_guide.htm)
