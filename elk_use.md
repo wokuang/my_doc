@@ -151,6 +151,12 @@ GET /_stats
 ## 收集 AWS 使用資料
   * [Metricbeat overview](https://www.elastic.co/guide/en/beats/metricbeat/current/metricbeat-overview.html) 使用 metricbeat 來收集
 
+## 收集 MySQL 資料
+  * [AWS RDS Mysql SlowQuery monitoring on Kibana using Logstash](https://blog.theprogrammer.in/2014/11/aws-rds-mysql-slowquery-monitoring-on-kibana-using-logstash/)
+
+## 收集 lambda 資料
+  * [AWS Lambda and ELK](https://lukewaite.ca/aws/lambda/elk/logstash/2015/07/13/aws-lambda-and-elk.html)
+
 ## 中文說明
   * [Elasticsearch权威指南（中文版）](https://github.com/elasticsearch-cn/elasticsearch-definitive-guide) - 有空來看看
 
