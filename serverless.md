@@ -10,6 +10,7 @@
 
 ## tutorial
   * [Serverless Stack](https://serverless-stack.com/) - Learn to Build Full-Stack Apps with Serverless and React on AWS ** 一份很完整的文件
+  * [Serverless Architectures on AWS in practice - OSCON 2018](https://speakerdeck.com/mpandit/serverless-architectures-on-aws-in-practice-oscon-2018)
 
 ## 有關 lambda logging
   * [Centralised logging for AWS Lambda](https://hackernoon.com/centralised-logging-for-aws-lambda-b765b7ca9152)
@@ -69,3 +70,6 @@
 
 ## samples
   * [带您玩转Lambda，轻松构建Serverless后台！](https://aws.amazon.com/cn/blogs/china/lambda-serverless/)
+
+## reference
+  * [Notes from AWS Lambda Deep Dive Webinar](https://lobster1234.github.io/2017/02/27/notes-from-aws-lambda-deep-dive-webinar/)

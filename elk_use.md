@@ -35,10 +35,11 @@ aws es describe-elasticsearch-domain --domain bruce
 }
 ```
 
-## 將 serverless log 寫入到 elastic search 中
-  * [Lambda Logs in ELK](https://medium.com/bbc-design-engineering/lambda-logs-in-elk-e4d924757249) - How to ingest AWS Lambda Log Streams from CloudWatch into an ELK monitoring stack
+## 將 serverless log (lambda 資料) 寫入到 elastic search 中
+  * [Lambda Logs in ELK](https://medium.com/bbc-design-engineering/lambda-logs-in-elk-e4d924757249) - How to ingest AWS Lambda Log Streams from CloudWatch into an ELK monitoring stack ** 這篇來看看
   * [Streaming AWS CloudWatch Logs to your own ELK logging solution](https://medium.com/@sohit_kumar/streaming-aws-cloudwatch-logs-to-your-own-elk-logging-solution-2bbd32f25100)
   * [daniel-cottone/serverless-es-logs](https://github.com/daniel-cottone/serverless-es-logs) - A Serverless plugin to transport logs to ElasticSearch
+  * [AWS Lambda and ELK](https://lukewaite.ca/aws/lambda/elk/logstash/2015/07/13/aws-lambda-and-elk.html)
 
 ## Query String
   * [Elasticsearch/Kibana Queries - In Depth Tutorial](https://www.timroes.de/elasticsearch-kibana-queries-in-depth-tutorial)
@@ -155,7 +156,7 @@ GET /_stats
   * [AWS RDS Mysql SlowQuery monitoring on Kibana using Logstash](https://blog.theprogrammer.in/2014/11/aws-rds-mysql-slowquery-monitoring-on-kibana-using-logstash/)
 
 ## 收集 lambda 資料
-  * [AWS Lambda and ELK](https://lukewaite.ca/aws/lambda/elk/logstash/2015/07/13/aws-lambda-and-elk.html)
+  * 將 serverless log (lambda 資料) 寫入到 elastic search 中
 
 ## 中文說明
   * [Elasticsearch权威指南（中文版）](https://github.com/elasticsearch-cn/elasticsearch-definitive-guide) - 有空來看看
