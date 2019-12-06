@@ -41,6 +41,10 @@ aws es describe-elasticsearch-domain --domain bruce
   * [daniel-cottone/serverless-es-logs](https://github.com/daniel-cottone/serverless-es-logs) - A Serverless plugin to transport logs to ElasticSearch
   * [AWS Lambda and ELK](https://lukewaite.ca/aws/lambda/elk/logstash/2015/07/13/aws-lambda-and-elk.html)
 
+## 取得 cloudwatch 的資料
+  * [Functionbeat: Serverless Ingestion for Elasticsearch](https://www.elastic.co/cn/blog/functionbeat-serverless-ingestion-for-elasticsearch)
+  * [Functionbeat overview](https://www.elastic.co/guide/en/beats/functionbeat/current/functionbeat-overview.html)
+
 ## Query String
   * [Elasticsearch/Kibana Queries - In Depth Tutorial](https://www.timroes.de/elasticsearch-kibana-queries-in-depth-tutorial)
 
