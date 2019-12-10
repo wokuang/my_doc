@@ -1,7 +1,8 @@
 # List AWS cloudwatch information
 
 ## 有關 cloudwatch metrics 
-  * [AWS Services That Publish CloudWatch Metrics](
+  * [AWS Services That Publish CloudWatch Metrics]
+
 ## How to grep log from cloudwatch
   * 目前是選用 awslogs package 的方式進行 
     * To list available log groups:
@@ -43,6 +44,9 @@ $ source ~/bin/setPowerAws.sh
 
 ## 想想 log aggregation 的方式
   * [How to implement log aggregation for AWS Lambda](https://www.freecodecamp.org/news/how-to-implement-log-aggregation-for-aws-lambda-ca714bf02f48/)
+
+## 有關 cloudwatch 的費用
+  * 有用到 monitor 的話，要看看如何使用 
 
 ## 一些操作上的範例
 ```
