@@ -48,6 +48,10 @@ $ source ~/bin/setPowerAws.sh
 ## 有關 cloudwatch 的費用
   * 有用到 monitor 的話，要看看如何使用 
 
+## 有關 cloudwatch 的使用
+  * [getting the most out of cloudwatch logs](https://lumigo.io/blog/getting-the-most-out-of-cloudwatch-logs/)
+  * [how to monitor lambda with cloudwatch metrics](https://lumigo.io/blog/how-to-monitor-lambda-with-cloudwatch-metrics/)
+
 ## 一些操作上的範例
 ```
 取得非 200 的request

@@ -161,6 +161,7 @@ GET /_stats
 
 ## 收集 lambda 資料
   * 將 serverless log (lambda 資料) 寫入到 elastic search 中
+  * [Centralized Logging](https://aws.amazon.com/solutions/centralized-logging/)
 
 ## 中文說明
   * [Elasticsearch权威指南（中文版）](https://github.com/elasticsearch-cn/elasticsearch-definitive-guide) - 有空來看看
