@@ -13,6 +13,7 @@ aws es describe-elasticsearch-domain --domain bruce
   * [簽署 HTTP 請求到 Amazon Elasticsearch Service](https://docs.aws.amazon.com/zh_tw/elasticsearch-service/latest/developerguide/es-request-signing.html#es-request-signing-python) - 將資料寫入到 elastic search 中
   * [將串流資料載入到 Amazon Elasticsearch Service](https://docs.aws.amazon.com/zh_tw/elasticsearch-service/latest/developerguide/es-aws-integrations.html#es-aws-integrations-cloudwatch-es)
     * [Streaming CloudWatch Logs Data to Amazon Elasticsearch Service](https://docs.aws.amazon.com/en_us/AmazonCloudWatch/latest/logs/CWL_ES_Stream.html)
+  * [Amazon Elasticsearch Service 中的 Identity and Access Management](https://docs.aws.amazon.com/zh_tw/elasticsearch-service/latest/developerguide/es-ac.html) 有關 ES 的 ploicy 管理
 
 ## 將 cloudwatch 資料，餵到 ES 的設定
   * [Streaming CloudWatch Logs Data to Amazon Elasticsearch Service](https://docs.aws.amazon.com/en_us/AmazonCloudWatch/latest/logs/CWL_ES_Stream.html)

@@ -3,6 +3,10 @@
 ## 有關 cloudwatch metrics 
   * [AWS Services That Publish CloudWatch Metrics]
 
+## 有關費用的部分
+  * [How to find out what exactly is trigerring all GetMetricData requests?](https://forums.aws.amazon.com/thread.jspa?messageID=865061)
+    * Unfortunately, there is no tool from your side to check the source of GetMetricData. The reason being, this API call is not logged in CloudTrail.
+  
 ## How to grep log from cloudwatch
   * 目前是選用 awslogs package 的方式進行 
     * To list available log groups:
