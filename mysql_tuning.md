@@ -27,3 +27,6 @@ $ show global variables like 'max_connections';
   * reference
     * [What is the default mysql wait_timeout and interactive_timeout](https://stackoverflow.com/questions/21076306/what-is-the-default-mysql-wait-timeout-and-interactive-timeout)
     * [Changing MySQL wait_timeout variable](https://medium.com/@dilsimchandrasena/changing-mysql-wait-timeout-variable-f16ebed1efce)
+
+## advance
+  * [MySQL Performance Cheat Sheet](https://severalnines.com/database-blog/mysql-performance-cheat-sheet)
