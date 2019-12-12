@@ -24,6 +24,7 @@ $ show global variables like 'max_connections';
     * wait_timeout: 300 (s)
     * max_connections，由 64 改為 96，(instance: t3.micro, 1G RAM)
       * AWS 計算方式: {DBInstanceClassMemory/12582880}
+    * slow_query_log: 1 (以便能開啟 slow log)
   * reference
     * [What is the default mysql wait_timeout and interactive_timeout](https://stackoverflow.com/questions/21076306/what-is-the-default-mysql-wait-timeout-and-interactive-timeout)
     * [Changing MySQL wait_timeout variable](https://medium.com/@dilsimchandrasena/changing-mysql-wait-timeout-variable-f16ebed1efce)
