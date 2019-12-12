@@ -63,6 +63,10 @@ s3.Object('bucket-name', 'uuid-key-name').put(Body='data',
   * [Force Discard AWS Lambda Container](https://stackoverflow.com/questions/47445815/force-discard-aws-lambda-container/47447475#47447475)
   * [Restarting AWS lambda function to clear cache](https://stackoverflow.com/questions/50866472/restarting-aws-lambda-function-to-clear-cache)
 
+## send alert to slack
+  * [New – Slack Integration Blueprints for AWS Lambda](https://aws.amazon.com/tw/blogs/aws/new-slack-integration-blueprints-for-aws-lambda/)
+  * [將 AWS CloudWatch Alarms 發佈到 Slack](https://medium.com/verybuy-dev/%E5%B0%87-aws-cloudwatch-alarms-%E7%99%BC%E4%BD%88%E5%88%B0-slack-c283959a90ca)
+
 ## Course
   - AWS Developers: Serverless Architecture and Monitoring - ongoin 2019-02-27
   - Deploying Serverless Applications in AWS Using the Serverless Application Model
