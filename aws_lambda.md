@@ -26,7 +26,7 @@
   - [Using pre-signed URLs to upload a file to a private S3 bucket](https://sanderknape.com/2017/08/using-pre-signed-urls-upload-file-private-s3-bucket/)
 
 ## Authorization
-  * [The Complete Guide to Custom Authorizers with AWS Lambda and API Gateway](https://www.alexdebrie.com/posts/lambda-custom-authorizers/)
+  * [The Complete Guide to Custom Authorizers with AWS Lambda and API Gateway](https://www.alexdebrie.com/posts/lambda-custom-authorizers/) ** 這篇滿有用的
 
 ## Limit
   - [AWS Lambda Limits](https://docs.aws.amazon.com/en_us/lambda/latest/dg/limits.html)
