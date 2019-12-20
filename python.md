@@ -76,6 +76,10 @@ timestamp is 1557238787
   * [Python 3's f-Strings: An Improved String Formatting Syntax (Guide)](https://realpython.com/python-f-strings/)
   * [f-string Formatting in Python](https://www.datacamp.com/community/tutorials/f-string-formatting-in-python)
 
+## python log
+  * [Structured log files in Python using python-json-logger](https://wtanaka.com/node/8201)
+    * [madzak/python-json-logger](https://github.com/madzak/python-json-logger) Json Formatter for the standard python logger
+
 ## PEP
   * [PEP 8 -- Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/)
 
