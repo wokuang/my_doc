@@ -67,6 +67,9 @@ s3.Object('bucket-name', 'uuid-key-name').put(Body='data',
   * [New – Slack Integration Blueprints for AWS Lambda](https://aws.amazon.com/tw/blogs/aws/new-slack-integration-blueprints-for-aws-lambda/)
   * [將 AWS CloudWatch Alarms 發佈到 Slack](https://medium.com/verybuy-dev/%E5%B0%87-aws-cloudwatch-alarms-%E7%99%BC%E4%BD%88%E5%88%B0-slack-c283959a90ca)
 
+## AWS WAF support
+  * [Amazon API Gateway adds support for AWS WAF](https://aws.amazon.com/tw/blogs/compute/amazon-api-gateway-adds-support-for-aws-waf/)
+
 ## AWS 提供的範例程式
   * [serverless-application-model/examples/apps/](https://github.com/awslabs/serverless-application-model/tree/master/examples/apps)
   * [awslabs/serverless-application-model](https://github.com/awslabs/serverless-application-model)
