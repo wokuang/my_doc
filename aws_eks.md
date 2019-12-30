@@ -6,5 +6,8 @@
   * [Amazon ECS Workshop for AWS Fargate](https://ecsworkshop.com/)
   * [Amazon EKS Workshop](https://eksworkshop.com/)
 
+## command
+  * The common format of a kubectl command is: kubectl action resource
+
 ## reference
   * [Kubernetes on AWS | Weaveworks](https://www.weave.works/technologies/kubernetes-on-aws/)
