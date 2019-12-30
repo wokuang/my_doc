@@ -176,6 +176,9 @@ GET /_stats
     * AWS lambda function to ship ELB, S3, CloudTrail, VPC, CloudFront logs to Logstash
   * [Functionbeat: Serverless Ingestion for Elasticsearch](https://www.elastic.co/cn/blog/functionbeat-serverless-ingestion-for-elasticsearch)
 
+## log
+  * [Viewing Amazon Elasticsearch Service Error Logs](https://aws.amazon.com/tw/blogs/big-data/viewing-amazon-elasticsearch-service-error-logs/)
+
 ## monitoring
   * [Monitoring a critical part of your infrastructure: Amazon Elasticsearch domain](https://cloudonaut.io/monitoring-a-critical-part-of-your-infrastructure-amazon-elasticsearch-domain/)
   * [Monitoring AWS Lambda Invocations with the ELK Stack](https://logz.io/blog/lambda-elk/)
