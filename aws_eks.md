@@ -27,4 +27,5 @@
   * [Kubernetes on AWS | Weaveworks](https://www.weave.works/technologies/kubernetes-on-aws/)
   * [Deploying a Kubernetes Cluster with Amazon EKS](https://logz.io/blog/amazon-eks/)
   * [Deploying microservices to Amazon Web Services](https://openliberty.io/guides/cloud-aws.html) * 來試試看
+  * [EKS 的一些筆記](https://kkc.github.io/2018/10/04/EKS-notes/)
 
