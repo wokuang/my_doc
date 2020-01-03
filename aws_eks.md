@@ -23,6 +23,9 @@
   * kubectl logs - print the logs from a container in a pod
   * kubectl exec - execute a command on a container in a pod
 
+## ECR login
+  * [awslabs/amazon-ecr-credential-helper](https://github.com/awslabs/amazon-ecr-credential-helper) Automatically gets credentials for Amazon ECR on docker push/docker pull
+
 ## reference
   * [Kubernetes on AWS | Weaveworks](https://www.weave.works/technologies/kubernetes-on-aws/)
   * [Deploying a Kubernetes Cluster with Amazon EKS](https://logz.io/blog/amazon-eks/)
