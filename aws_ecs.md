@@ -7,6 +7,7 @@
     * A curated list of awesome ECS guides, development tools, and resources
   * [Amazon ECS Workshop](https://ecsworkshop.com/)
   * [A beginner’s guide to Amazon’s Elastic Container Service](https://www.freecodecamp.org/news/amazon-ecs-terms-and-architecture-807d8c4960fd/)
+  * [DOCKER - WORDPRESS DEPLOY TO ECS WITH DOCKER-COMPOSE (ECS-CLI EC2 TYPE)](https://www.bogotobogo.com/DevOps/Docker/Docker-ECS-CLI-Docker-Compose-Wordpress-EC2-Type.php) ** 要來試試
   * [A Complete Guide To Deploying Your Web App To Amazon Web Service](https://codeburst.io/a-complete-guide-to-deploying-your-web-app-to-amazon-web-service-2854ff6bc399)
 
 
