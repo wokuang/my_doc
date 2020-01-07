@@ -6,4 +6,5 @@
   * [nathanpeck/awesome-ecs](https://github.com/nathanpeck/awesome-ecs) 
     * A curated list of awesome ECS guides, development tools, and resources
   * [Amazon ECS Workshop](https://ecsworkshop.com/)
+  * [A beginner’s guide to Amazon’s Elastic Container Service](https://www.freecodecamp.org/news/amazon-ecs-terms-and-architecture-807d8c4960fd/)
 
