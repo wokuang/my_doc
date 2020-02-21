@@ -309,3 +309,7 @@ def handler(event, context):
   * [Auto Scale DynamoDB With Dynamic DynamoDB](https://aws.amazon.com/tw/blogs/aws/auto-scale-dynamodb-with-dynamic-dynamodb/) 有空來看看
   * [Using Serverless Authentication Boilerplate with FaunaDB](https://serverless.com/blog/faunadb-serverless-authentication/)
   * [Aurora Serverless Data API: A First Look](https://www.jeremydaly.com/aurora-serverless-data-api-a-first-look/) 連 relational DB 也有 serverless 
+
+## serverless 持續增加的功能 
+  * [Add support for existing S3 buckets](https://github.com/serverless/serverless/pull/6290)
+
