@@ -91,3 +91,4 @@ $ curl -v "https://apigateway.us-west-2.amazonaws.com/domainnames/sig-dev.cs.txo
   * [建立 private 的 Docker Registry](https://ithelp.ithome.com.tw/articles/10191213)
   * [Docker 實戰系列（三）：使用 Volume 保存容器內的數據](https://larrylu.blog/using-volumn-to-persist-data-in-container-a3640cc92ce4)
   * [Docker 實用指令及 Best Practices Cheat Sheet 圖表](https://blog.wu-boy.com/2016/03/docker-commands-and-best-practices-cheat-sheet/)
+  * [《Docker —— 從入門到實踐­》正體中文版](https://legacy.gitbook.com/book/philipzheng/docker_practice/details) 值得一讀
