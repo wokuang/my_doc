@@ -6,4 +6,5 @@
 ## Reference
   * [用 AWS Athena 查詢 CloudTrail 日誌](https://www.ecloudture.com/querying-cloudtrail-logs-with-aws-athena/)
   * [Amazon Athena — A "sneak peak"](https://medium.com/weareservian/amazon-athena-a-sneak-peak-67f7d516f797)
+  * [CSV Analysis with Amazon Athena](https://medium.com/avmconsulting-blog/csv-analysis-with-amazon-athena-b241f87f010c)
 
