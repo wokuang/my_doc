@@ -14,3 +14,8 @@
       * 這邊有個雷，因為 Cloudfront 只支援 us-east-1 的 ACM certificate，所以切記要先切到 us-east-1 region 再來申請 SSL 憑證啊
     * [Moving a static website to AWS S3 + CloudFront with HTTPS](https://medium.com/@willmorgan/moving-a-static-website-to-aws-s3-cloudfront-with-https-1fdd95563106)
     * [Simple site hosting with Amazon S3 and HTTPS](https://www.freecodecamp.org/news/simple-site-hosting-with-amazon-s3-and-https-5e78017f482a/)
+
+## S3 and KMS
+  encrypt Data when store to AWS S3
+  * [How to Use the REST API to Encrypt S3 Objects by Using AWS KMS](https://aws.amazon.com/tw/blogs/security/how-to-use-the-rest-api-to-encrypt-s3-objects-by-using-aws-kms/)
+
