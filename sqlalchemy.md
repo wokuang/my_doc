@@ -51,3 +51,4 @@
   * [SQLAlchemy — Python Tutorial](https://towardsdatascience.com/sqlalchemy-python-tutorial-79a577141a91)
   * [Python操作MySQL -即pymysql/SQLAlchemy用法](https://www.cnblogs.com/pangguoping/p/5720322.html)
   * [SQLAlchemy 学习笔记](https://github.com/lzjun567/note/blob/master/note/python/sqlalchemy.md)
+  * [SQLAlchemy ORM — a more “Pythonic” way of interacting with your database](https://medium.com/dataexplorations/sqlalchemy-orm-a-more-pythonic-way-of-interacting-with-your-database-935b57fd2d4d)
